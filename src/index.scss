@@ -1,59 +1,23 @@
-/* Idén novemberben... */
-body {
+* {
     margin: 0;
-}
-.november {
-    margin-left: 5.21%;
-    font-family: 'Great Vibes';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 100px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #000000;
-
-}
-/* Kincső és Zoltán*/
-.wedding-couple {
-    margin-top: 20.47%;
-    margin-left: 23.86%;
-    left: 458px;
-    top: 446px;
-    
-    font-family: 'Great Vibes';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 150px;
-    line-height: 188px;
-    /* identical to box height */
-    
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.1em;
-    
-    color: #000000;
-    
+    padding: 0;
 }
 
-/* házasságot köt*/
-.marriage {
-    margin-bottom: 5.21%;
-    margin-left: 71.1%;
-    margin-right: 5.21%;
-    width: 455px;
-    height: 125px;
-
-    font-family: 'Great Vibes';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 125px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #000000;
+body {
+    background-image: url(img/Backdrop.jpg);
+    background-size: cover;
 }
+
+@media all and (max-width: 1405px) {
+    body {
+        background-size: 1405px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    body {  
+        background-image: url(img/Background-mobile.jpg);
+        background-size: 800px;
+    }
+}
+
