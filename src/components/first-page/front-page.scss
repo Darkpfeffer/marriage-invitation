@@ -1,0 +1,111 @@
+/* Front page styling*/
+.front-page {
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 313px;
+    color: #ffffff;
+
+    filter: drop-shadow(0px 0px 50px #000000);
+}
+
+#Kincso {
+    height: 260px;
+    letter-spacing: 0.05em;
+    margin-left: 10.78%;
+    margin-top: 52px;
+}
+
+#and {
+    display: flex;
+    height: 264px;
+    justify-content: center;
+}
+
+#Zoltan {
+    display: flex;
+    height: 272px;
+    justify-content: end;
+    margin-right: 16.41%;
+}
+@media all and (max-width: 800px) {
+    #Kincso, #Zoltan, #and {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    #Kincso {
+        margin-top: 6%;
+    }
+}
+
+@media all and (max-width: 640px) {
+    .front-page {
+        font-size: 150px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .front-page {
+        font-size: 100px;
+    }
+
+    #and {
+        line-height: 150px;
+    }
+
+    #Zoltan {
+        line-height: 0px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    #Kincso, #Zoltan, #and {
+        margin-top: 0;
+        height: 200px;
+        align-items: start;
+    } 
+}
+
+@media all and (max-width: 330px) {
+    .front-page {
+        font-size: 75px;
+    }
+
+    #Kincso, #Zoltan, #and {
+        height: 150px;
+    }
+
+    #and {
+        line-height: 200px;
+    }
+
+    #Zoltan {
+        line-height: 80px;
+    }
+}
+
+@media all and (max-width: 240px) {
+    .front-page {
+        font-size: 50px;
+    }
+}
+
+@media all and (max-width: 180px) {
+    #Kincso {
+        line-height: 100px;
+        height: 125px;
+    }
+
+    #and {
+        line-height: 0px;
+        height: 75px;
+    }
+
+    #Zoltan {
+        line-height: 0px;
+        height: 10px;
+    }
+}

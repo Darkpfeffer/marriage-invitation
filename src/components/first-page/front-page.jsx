@@ -1,6 +1,6 @@
-import './first-page.scss'
+import './front-page.scss'
 
-export const FirstPage = () => {
+export const FrontPage = () => {
     return (
         <>
             <div>

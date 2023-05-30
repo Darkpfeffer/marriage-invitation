@@ -14,10 +14,22 @@ body {
     }
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1000px) {
     body {  
         background-image: url(img/Background-mobile.jpg);
-        background-size: 800px;
+        background-size: 1200px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    body {
+        background-size: 650px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    body {
+        background-size: 620px;
     }
 }
 
