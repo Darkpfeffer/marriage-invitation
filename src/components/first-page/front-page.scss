@@ -29,6 +29,82 @@
     justify-content: end;
     margin-right: 16.41%;
 }
+
+//media queries for max-width
+@media all and (max-width: 1618px) {
+    #Kincso, #Zoltan, #and {
+        height: 220px;
+    }
+}
+
+@media all and (max-width: 1485px) {
+    #Kincso, #Zoltan, #and {
+        height: 200px;
+        line-height: 300px;
+    }
+
+    #Kincso {
+        margin-top: 25px;
+    }
+
+    #Zoltan {
+        height: 0px;
+        line-height: 280px;
+    }
+}
+
+@media all and (max-width: 1298px) {
+    #Kincso,  #and {
+        height: 180px;
+    }
+
+    #Kincso {
+        margin-top: 0px;
+    }
+}
+
+@media all and (max-width: 1180px) {
+    .front-page {
+        font-size: 160px;
+    }
+
+    #Kincso, #and, #Zoltan {
+        line-height: 250px;
+    }
+
+    #Kincso, #and {
+        height: 160px;
+    }
+}
+
+@media all and (max-width: 1055px) {
+    .front-page {
+        font-size: 140px;
+    }
+
+    #Kincso, #and, #Zoltan {
+        line-height: 180px;
+    }
+}
+
+@media all and (max-width: 935px) {
+    .front-page {
+        font-size: 120px;
+    }
+
+    #Kincso {
+        line-height: 150px;
+    }
+
+    #and {
+        line-height: 100px;
+    }
+
+    #Zoltan {
+        line-height: 50px;
+    }
+}
+
 @media all and (max-width: 800px) {
     #Kincso, #Zoltan, #and {
         display: flex;
@@ -57,7 +133,7 @@
     }
 
     #Zoltan {
-        line-height: 0px;
+        line-height: 75px;
     }
 }
 
