@@ -2,8 +2,7 @@
 import React from "react"
 
 export const MusicButton = () => {
-    let path="../../audio/chapel-of-love.mp3"
-    const audio = new Audio(path)
+    const audio = new Audio()
     console.log(audio)
     const audioPlay = (event) => {
         event.preventDefault()

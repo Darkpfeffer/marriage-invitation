@@ -6,7 +6,12 @@
 body {
     background-image: url(img/Backdrop.jpg);
     background-size: cover;
+    color: #000B4B;
 }
+
+/* iframe {
+    display: none;
+} */
 
 @media all and (max-width: 1405px) {
     body {

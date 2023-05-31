@@ -6,6 +6,7 @@ import { FrontPage } from "../first-page/front-page"
 import { MusicButton } from "../music-button/music-button"
 import { NaviBackArrow } from "../navi-back-arrow/navi-back-arrow"
 import { NaviNextArrow } from "../navi-next-arrow/navi-next-arrow"
+import { LetterView } from "../letter-view/letter-view"
 
 export const MainView = () => {
     //set states
@@ -23,7 +24,6 @@ export const MainView = () => {
 
     return (
         <>
-        <MusicButton />
         { page > 0 && (
             <NaviBackArrow 
                 onClick={ decrement }
@@ -39,6 +39,10 @@ export const MainView = () => {
 
         { page === 0 && (
             <FrontPage />
+        )} 
+        
+        { page === 1 && (
+            <LetterView />
         )}
         </>
     )
