@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(img/Backdrop.jpg);
+    background-image: url("img/Backdrop.jpg");
     background-size: cover;
     color: #000B4B;
 }
@@ -17,7 +17,7 @@ body {
 
 @media all and (max-width: 1000px) {
     body {  
-        background-image: url(img/Background-mobile.jpg);
+        background-image: url("img/Background-mobile.jpg");
         background-size: 1200px;
     }
 }
