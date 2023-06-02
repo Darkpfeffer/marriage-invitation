@@ -215,9 +215,8 @@
     }
 }
 
-@media all and (max-width: 700px) { //height 1120px
+// @media all and (max-width: 700px) //height 1120px
 
-}
 
 @media all and (max-width: 600px) { //height 960px
     .letter {
@@ -349,5 +348,11 @@
     .letter-text {
         font-size: 11px;
         line-height: 14px;
+    }
+}
+
+@media all and (max-width: 294px) {
+    .letter {
+        margin-bottom: 250px;
     }
 }

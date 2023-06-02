@@ -31,6 +31,7 @@
 .main-details__header {
     font-family: 'Great Vibes';
     font-size: 100px;
+    line-height: 125px;
 }
 
 .main-details__content {
@@ -66,7 +67,7 @@
 }
 
 #ceremony {
-    width: 330px;
+    width: 350px;
 }
 
 #house {
@@ -159,7 +160,7 @@
     }
     
     #ceremony {
-        width: 237px;
+        width: 252px;
     }
     
     #house {
@@ -191,89 +192,289 @@
     }
 }
 
-@media all and (max-width: 1035px) { //height 582px
+//tablet view
+@media all and (max-width: 1035px) { //height 1656px
     .main-details {
-        padding-top: 31px;
-        padding-bottom: 31px;
-        width: 694px;
+        margin-top: 30%;
+        width: 440px;
+    }
+
+    .main-details__date, .main-details__ceremony, .main-details__lunch {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .main-details__date {
-        margin-left: 18px;
-        width: 157px;
+        width: 252px;
+        margin-top: 25px;
     }
     
     .main-details__lunch {
-        margin-right: 18px;
-        width: 133px;
+        margin-top: 67px;
+        width: 222px;
     }
-
+    
     .main-details__ceremony {
-        width: 232px;
-        margin-right: 68px;
-        margin-left: 68px;
+        margin-top: 67px;
+        width: 390px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
 
     .main-details__header {
-        font-size: 61px;
-        line-height: 77px;
+        font-size: 100px;
+        line-height: 125px;
     }
 
     .main-details__text {
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 25px;
+        line-height: 34px;
     }
 
     #date-header {
-        width: 157px;
+        width: 252px;
     }
     
     #date {
-        width: 47px;
+        width: 79px;
     }
     
     #year {
-        width: 35px;
+        width: 55px;
     }
     
     #day {
-        width: 63px;
+        width: 100px;
     }
     
     #hour {
-        width: 113px;
+        width: 188px;
     }
     
     #ceremony {
-        width: 205px;
+        width: 350px;
     }
     
     #house {
-        width: 83px;
+        width: 139px;
     }
     
     #room {
-        width: 146px;
+        width: 244px;
     }
     
     #entrance {
-        width: 226px;
+        width: 377px;
     }
     
     #lunch {
-        width: 113px;
+        width: 190px;
     }
     
     #place {
-        width: 113px;
+        width: 189px;
     }
     
     #distance {
-        width: 87px;
+        width: 144px;
     }
     
     #from-where {
-        width: 101px;
+        width: 169px;
     }
 }
 
+@media all and (max-width: 900px) { //height 1440px
+    .main-details {
+        margin-top: 25%;
+    }
+}
+
+@media all and (max-width: 800px) { //height 1280px
+    .main-details {
+        margin-top: 20%;
+    }
+}
+
+@media all and (max-width: 750px) { // height 1200px
+    .main-details {
+        padding-top: 18px;
+        padding-bottom: 18px;
+        margin-top: 30%;
+        width: 317px;
+    }
+
+    .main-details__date {
+        width: 182px;
+        margin-top: 18px;
+    }
+    
+    .main-details__lunch {
+        margin-top: 48px;
+        width: 160px;
+    }
+    
+    .main-details__ceremony {
+        margin-top: 48px;
+        width: 281px;
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+
+    .main-details__header {
+        font-size: 72px;
+        line-height: 90px;
+    }
+
+    .main-details__text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #date-header {
+        width: 182px;
+    }
+    
+    #date {
+        width: 57px;
+    }
+    
+    #year {
+        width: 38px;
+    }
+    
+    #day {
+        width: 72px;
+    }
+    
+    #hour {
+        width: 135px;
+    }
+    
+    #ceremony {
+        width: 252px;
+    }
+    
+    #house {
+        width: 100px;
+    }
+    
+    #room {
+        width: 175px;
+    }
+    
+    #entrance {
+        width: 271px;
+    }
+    
+    #lunch {
+        width: 136px;
+    }
+    
+    #place {
+        width: 136px;
+    }
+    
+    #distance {
+        width: 104px;
+    }
+    
+    #from-where {
+        width: 121px;
+    }
+}
+
+@media all and (max-width: 600px) { //height 960px
+    .main-details {
+        margin-top: 20%;
+    }
+}
+
+@media all and (max-width: 550px) { //height 880px
+    .main-details {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        margin-top: 30%;
+        width: 281px;
+    }
+    
+    .main-details__date {
+        width: 161px;
+        margin-top: 16px;
+    }
+    
+    .main-details__lunch {
+        margin-top: 42px;
+        width: 142px;
+    }
+    
+    .main-details__ceremony {
+        margin-top: 42px;
+        width: 249px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    
+    .main-details__header {
+        font-size: 64px;
+        line-height: 80px;
+    }
+    
+    .main-details__text {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    #date-header {
+        width: 162px;
+    }
+    
+    #date {
+        width: 51px;
+    }
+    
+    #year {
+        width: 34px;
+    }
+    
+    #day {
+        width: 64px;
+    }
+    
+    #hour {
+        width: 120px;
+    }
+    
+    #ceremony {
+        width: 228px;
+    }
+    
+    #house {
+        width: 89px;
+    }
+    
+    #room {
+        width: 156px;
+    }
+    
+    #entrance {
+        width: 241px;
+    }
+    
+    #lunch {
+        width: 121px;
+    }
+    
+    #place {
+        width: 121px;
+    }
+    
+    #distance {
+        width: 93px;
+    }
+    
+    #from-where {
+        width: 108px;
+    }
+}
