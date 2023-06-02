@@ -39,7 +39,15 @@ body {
 }
 
 //background media query setings
-@media all and (max-width: 1000px) {
+
+
+@media all and (max-width: 1405px) {
+    body {
+        background-size: 1405px;
+    }
+}
+
+@media all and (max-width: 1035px) {
     body {  
         background-image: url("img/Background-mobile.jpg");
         background-size: 1200px;
@@ -48,7 +56,7 @@ body {
 
 @media all and (max-width: 600px) {
     body {
-        background-size: 650px;
+        background-size: 800px;
     }
 }
 
@@ -61,7 +69,7 @@ body {
 //nav-buttons media query settings
 @media all and (max-width: 1485px) {
     .navi-next {
-        right: 40px;
+        right: 20px;
     }
 
     .navi-back {
@@ -73,9 +81,9 @@ body {
     }
 }
 
-@media all and (max-width: 1405px) {
-    body {
-        background-size: 1405px;
+@media all and (max-width: 1250px) {
+    .navi-next {
+        right: 5px;
     }
 }
 
@@ -85,7 +93,7 @@ body {
     }
 
     .navi-next {
-        right: 10px;
+        right: -10px;
     }
 
     .navi-back {

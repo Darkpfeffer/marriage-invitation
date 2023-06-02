@@ -27,7 +27,7 @@
 }
 
 //Media queries for min-width
-@media all and (min-width: 1920px) {
+@media all and (min-width: 1920px) { //height 1080px
     .letter {
         width: 1520px;
         margin-left: auto;
@@ -36,7 +36,7 @@
 }
 
 //Media queries for max-width
-@media all and (max-width: 1895px) {
+@media all and (max-width: 1895px) { // height 1065px
     .letter-header {
         font-size: 95px;
     }
@@ -46,7 +46,11 @@
     }
 }
 
-@media all and (max-width: 1820px) {
+@media all and (max-width: 1820px) { //height 1023px
+    .letter {
+        margin-top: 13%;
+    }
+    
     .letter-header {
         font-size: 92px;
     }
@@ -56,10 +60,7 @@
     }
 }
 
-@media all and (max-width: 1750px) {
-    .letter {
-        margin-top: 11%;
-    }
+@media all and (max-width: 1750px) { //height 984px
     .letter-header {
         font-size: 88px;
         line-height: 100px;
@@ -70,9 +71,9 @@
     }
 }
 
-@media all and (max-width: 1680px) {
+@media all and (max-width: 1680px) { //height 945px
     .letter {
-        margin-top: 13%;
+        margin-top: 14%;
     }
 
     .letter-header {
@@ -87,7 +88,7 @@
     }
 }
 
-@media all and (max-width: 1605px) {
+@media all and (max-width: 1605px) { //height 902px
     .letter {
         margin-top: 14%;
     }
@@ -101,9 +102,9 @@
     }
 }
 
-@media all and (max-width: 1535px) {
+@media all and (max-width: 1535px) { //height 863px
     .letter {
-        margin-top: 16%;
+        margin-top: 15%;
     } 
 
     .letter-header {
@@ -116,11 +117,7 @@
     }
 }
 
-@media all and (max-width: 1465px) {
-    .letter {
-        margin-top: 17%;
-    }
-
+@media all and (max-width: 1465px) { //height 824px
     .letter-header {
         font-size: 72px;
     }
@@ -130,9 +127,9 @@
     }
 }
 
-@media all and (max-width: 1390px) {
+@media all and (max-width: 1390px) { //height 781
     .letter {
-        margin-top: 20%;
+        margin-top: 16%;
     }
 
     .letter-header {
@@ -146,11 +143,7 @@
     }
 }
 
-@media all and (max-width: 1320px) {
-    .letter {
-        margin-top: 21%;
-    }
-
+@media all and (max-width: 1320px) { //height 742px
     .letter-header {
         font-size: 64px;
     }
@@ -161,11 +154,7 @@
     }
 }
 
-@media all and (max-width: 1250px) {
-    .letter {
-        margin-top: 23%;
-    }
-
+@media all and (max-width: 1250px) { //height 703px
     .letter-header {
         font-size: 60px;
     }
@@ -176,12 +165,8 @@
     }
 }
 
-@media all and (max-width: 1175px) {
-    .letter {
-        margin-top: 25%;
-    }
-
-    .letter-header {
+@media all and (max-width: 1175px) { //height 660px
+     .letter-header {
         font-size: 56px;
     }
 
@@ -190,11 +175,7 @@
     }
 }
 
-@media all and (max-width: 1105px) {
-    .letter {
-        margin-top: 27%;
-    }
-
+@media all and (max-width: 1105px) { //height 621px
     .letter-header {
         font-size: 52px;
     }
@@ -205,7 +186,8 @@
     }
 }
 
-@media all and (max-width: 1035px) {
+//tablet view
+@media all and (max-width: 1035px) { //height 1656
     .mobile {
         display: inherit;
     }
@@ -213,7 +195,7 @@
     .letter {
         width: 500px;
         margin: 0 auto;
-        margin-top: 100px;
+        margin-top: 30%;
     }
 
     .letter-header {
@@ -233,10 +215,13 @@
     }
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 700px) { //height 1120px
+
+}
+
+@media all and (max-width: 600px) { //height 960px
     .letter {
         width: 344px;
-        margin-top: 174px;
     }
 
     .letter-header {
@@ -250,62 +235,119 @@
     }
 }
 
-@media all and (max-width: 380px) {
+//mobile view
+@media all and (max-width: 500px) { //height 1075px
     .letter {
-        margin-top: 50px;
-        width: 320px;
+        margin-top: 40%;
+        width: 88%;
     }
 
     .letter-header {
-        font-size: 38px;
+        font-size: 52px;
+        line-height: 75px;
     }
 
     .letter-text {
-        font-size: 14px;
+        font-size: 19px;
+        line-height: 25px;
     }
 }
 
-@media all and (max-width: 320px) {
-    .letter {
-        width: 280px
+@media all and (max-width: 485px) { //height 1043px
+    .letter-header {
+        font-size: 48px;
+        line-height: 65px;
     }
 
+    .letter-text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media all and (max-width: 465px) { //height 1000px
+    .letter-header {
+        font-size: 45px;
+        line-height: 56px;
+    }
+    
+    .letter-text {
+        font-size: 17px;
+    }
+}
+
+@media all and (max-width: 436px) { //height 935px
+    .letter-header {
+        font-size: 43px;
+        line-height: 53px;
+    }
+
+    .letter-text {
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
+
+@media all and (max-width: 412px) { //height 886px
+    .letter-header {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .letter-text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media all and (max-width: 389px) { //height 836px
+    .letter-header {
+        font-size: 37px;
+        line-height: 46px;
+    }
+    
+    .letter-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media all and (max-width: 365px) { //height 784px
+    .letter-header {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    
+    .letter-text {
+        font-size: 13px;
+        line-height: 17px;
+    }
+}
+
+@media all and (max-width: 341px) { //height 733px
     .letter-header {
         font-size: 32px;
         line-height: 40px;
     }
-
+    
     .letter-text {
         font-size: 12px;
         line-height: 16px;
     }
 }
 
-@media all and (max-width: 280px) {
+@media all and (max-width: 318px) { //height 683px
     .letter {
-        width: 250px;
+        margin-bottom: 250px;
     }
-
+    
     .letter-header {
         font-size: 29px;
         line-height: 36px;
-        padding-top: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
     }
 
     .letter-text {
         font-size: 11px;
         line-height: 14px;
-        margin-left: 10px;
-        margin-right: 10px;
-        padding-bottom: 10px;
-    }
-}
-
-@media all and (max-width:250px) {
-    .letter {
-        width: auto;
-        min-width: 120px;
     }
 }
