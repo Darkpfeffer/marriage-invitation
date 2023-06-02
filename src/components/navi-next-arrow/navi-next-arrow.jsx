@@ -1,3 +1,4 @@
+//Import navigation image
 import NaviNext from "../../img/Navigational_arrow.svg"
 
 export const NaviNextArrow = ({ onClick }) => {

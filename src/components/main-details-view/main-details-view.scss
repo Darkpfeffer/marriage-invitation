@@ -1,0 +1,279 @@
+.main-details {
+    background: rgba(255, 255, 255, 0.85);
+    width: 1156px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-details__date, .main-details__ceremony, .main-details__lunch {
+    display: inline-block;
+}
+
+.main-details__date {
+    margin-left: 30px;
+    width: 252px;
+}
+
+.main-details__lunch {
+    margin-right: 30px;
+    width: 222px;
+}
+
+.main-details__ceremony {
+    width: 390px;
+    margin-right: 110px;
+    margin-left: 110px;
+}
+
+.main-details__header {
+    font-family: 'Great Vibes';
+    font-size: 100px;
+}
+
+.main-details__content {
+    font-family: 'Open sans';
+    font-size: 25px;
+    line-height: 34px;
+}
+
+.main-details__text, .main-details__header {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+//size of the text to center them
+#date-header {
+    width: 252px;
+}
+
+#date {
+    width: 79px;
+}
+
+#year {
+    width: 55px;
+}
+
+#day {
+    width: 100px;
+}
+
+#hour {
+    width: 188px;
+}
+
+#ceremony {
+    width: 330px;
+}
+
+#house {
+    width: 139px;
+}
+
+#room {
+    width: 244px;
+}
+
+#entrance {
+    width: 377px;
+}
+
+#lunch {
+    width: 190px;
+}
+
+#place {
+    width: 189px;
+}
+
+#distance {
+    width: 144px;
+}
+
+#from-where {
+    width: 169px;
+}
+
+//media queries
+@media all and (max-width: 1920px) { //height 1080px
+    .main-details {
+        margin-top: 18%;
+    }
+}
+
+@media all and (max-width: 1425px) {
+    .main-details {
+        margin-top: 15%;
+        padding-top: 36px;
+        padding-bottom: 36px;
+        width: 823px;
+    }
+
+    .main-details__date {
+        margin-left: 21px;
+        width: 182px;
+    }
+    
+    .main-details__lunch {
+        margin-right: 21px;
+        width: 160px;
+    }
+
+    .main-details__ceremony {
+        width: 280.8px;
+        margin-right: 79px;
+        margin-left: 79px;
+    }
+
+    .main-details__header {
+        font-size: 72px;
+        line-height: 90px;
+    }
+
+    .main-details__text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #date-header {
+        width: 182px;
+    }
+    
+    #date {
+        width: 57px;
+    }
+    
+    #year {
+        width: 38px;
+    }
+    
+    #day {
+        width: 72px;
+    }
+    
+    #hour {
+        width: 135px;
+    }
+    
+    #ceremony {
+        width: 237px;
+    }
+    
+    #house {
+        width: 100px;
+    }
+    
+    #room {
+        width: 175px;
+    }
+    
+    #entrance {
+        width: 271px;
+    }
+    
+    #lunch {
+        width: 136px;
+    }
+    
+    #place {
+        width: 136px;
+    }
+    
+    #distance {
+        width: 104px;
+    }
+    
+    #from-where {
+        width: 121px;
+    }
+}
+
+@media all and (max-width: 1035px) { //height 582px
+    .main-details {
+        padding-top: 31px;
+        padding-bottom: 31px;
+        width: 694px;
+    }
+
+    .main-details__date {
+        margin-left: 18px;
+        width: 157px;
+    }
+    
+    .main-details__lunch {
+        margin-right: 18px;
+        width: 133px;
+    }
+
+    .main-details__ceremony {
+        width: 232px;
+        margin-right: 68px;
+        margin-left: 68px;
+    }
+
+    .main-details__header {
+        font-size: 61px;
+        line-height: 77px;
+    }
+
+    .main-details__text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    #date-header {
+        width: 157px;
+    }
+    
+    #date {
+        width: 47px;
+    }
+    
+    #year {
+        width: 35px;
+    }
+    
+    #day {
+        width: 63px;
+    }
+    
+    #hour {
+        width: 113px;
+    }
+    
+    #ceremony {
+        width: 205px;
+    }
+    
+    #house {
+        width: 83px;
+    }
+    
+    #room {
+        width: 146px;
+    }
+    
+    #entrance {
+        width: 226px;
+    }
+    
+    #lunch {
+        width: 113px;
+    }
+    
+    #place {
+        width: 113px;
+    }
+    
+    #distance {
+        width: 87px;
+    }
+    
+    #from-where {
+        width: 101px;
+    }
+}
+

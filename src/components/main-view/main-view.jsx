@@ -7,6 +7,7 @@ import { MusicButton } from "../music-button/music-button"
 import { NaviBackArrow } from "../navi-back-arrow/navi-back-arrow"
 import { NaviNextArrow } from "../navi-next-arrow/navi-next-arrow"
 import { LetterView } from "../letter-view/letter-view"
+import { MainDetailsView } from "../main-details-view/main-details-view"
 
 export const MainView = () => {
     //set states
@@ -38,6 +39,10 @@ export const MainView = () => {
             
             { page === 1 && (
                 <LetterView />
+            )}
+
+            { page === 2 && (
+                <MainDetailsView />
             )}
         </div>
 
