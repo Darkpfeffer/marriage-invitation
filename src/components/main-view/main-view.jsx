@@ -31,18 +31,20 @@ export const MainView = () => {
             />
         )}
 
+        <div className="page-content">
+            { page === 0 && (
+                <FrontPage />
+            )} 
+            
+            { page === 1 && (
+                <LetterView />
+            )}
+        </div>
+
         {page < 4 && (
             <NaviNextArrow 
                 onClick={ increment }
             />
-        )}
-
-        { page === 0 && (
-            <FrontPage />
-        )} 
-        
-        { page === 1 && (
-            <LetterView />
         )}
         </>
     )
