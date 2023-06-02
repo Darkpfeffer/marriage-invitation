@@ -7,6 +7,8 @@ body {
     background-image: url("img/Backdrop.jpg");
     background-size: cover;
     color: #000B4B;
+    background-position: top -100px left 0px;
+    background-attachment: fixed;
 }
 
 .navi-next, .navi-back {
@@ -106,7 +108,7 @@ body {
     }
 }
 
-@media all and (max-width: 768) { //height 1228px
+@media all and (max-width: 768px) { //height 1228px
     .navi-back__img, .navi-next__img {
         width: 75px;
     }
@@ -123,5 +125,84 @@ body {
 
     .navi-back__img, .navi-next__img {
         width: 64px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .navi-next {
+        right: -25px;
+    }
+
+    .navi-back__img, .navi-next__img {
+        width: 50px;
+    }
+}
+
+@media all and (max-width: 270px) {
+    .navi-back, .navi-next {
+        bottom: 75%;
+    }
+
+    .navi-next {
+        right: -40px;
+    }
+
+    .navi-back {
+        left: 20px;
+    }
+
+    .navi-back__img, .navi-next__img {
+        width: 40px;
+    }
+}
+
+@media all and (max-width: 219px) {
+
+    .navi-back, .navi-next {
+        bottom: 72%;
+    }
+
+    .navi-back {
+        left: 15px;
+    }
+
+    .navi-next {
+        right: -50px;
+    }
+
+    .navi-back__img, .navi-next__img {
+        width: 35px;
+    }
+}
+
+@media all and (max-width: 180px) {
+    .navi-back, .navi-next {
+        bottom: 65%;
+    }
+
+    .navi-back {
+        left: 10px;
+    }
+
+    .navi-next {
+        right: -60px;
+    }
+
+    .navi-back__img, .navi-next__img {
+        width: 30px;
+    }
+}
+
+@media all and (max-width: 150px) {
+    .navi-back, .navi-next {
+        bottom: 50%;
+    }
+
+    .navi-next {
+        right: -70px;
+    }
+
+    .navi-back__img, .navi-next__img {
+        width: 20px;
     }
 }
