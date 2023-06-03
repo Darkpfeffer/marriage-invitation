@@ -3,10 +3,10 @@ import "./letter-view.scss"
 export const LetterView = () => {
     return (
         <div className="letter">
-            <p className="letter-header">
+            <h1 className="letter-header">
                 Kedves Családunk <br className="mobile"></br>
                 és Barátaink!
-            </p>
+            </h1>
             <p className="letter-text">
                 Több éves próbaidő után Zoli úgy döntött, <br className="mobile"></br> 
                 az elkövetkezendő évtizedeket is Kincsővel <br className="mobile"></br>

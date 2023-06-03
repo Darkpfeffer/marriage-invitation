@@ -1,0 +1,60 @@
+p {
+    margin-bottom: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.about-us-content {
+    background-color: rgba(250, 250, 250, 0.85);
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    margin-top: 110px;
+    margin-bottom: 120px;
+}
+
+.about-us__img {
+    width: 195px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.about-us__title {
+    font-size: 80px;
+    line-height: 100px;
+    margin-left: 265px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(0, 11, 75, 0.5);
+}
+
+.about-us__title--capital {
+    letter-spacing: 0.05em;
+}
+
+.about-us__year {
+    font-family: 'Great Vibes';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 25px;
+}
+
+.about-us__quote {
+    margin: 100px auto;
+    width: 844px;
+    
+}
+
+.about-us__quote--capital {
+    font-size: 75px;
+    line-height: 65px;
+    float: left;
+    margin-right: 10px;
+}
+
+.about-us__thanks {
+    margin-left: 90px;
+}
