@@ -8,6 +8,7 @@ import { NaviBackArrow } from "../navi-back-arrow/navi-back-arrow"
 import { NaviNextArrow } from "../navi-next-arrow/navi-next-arrow"
 import { LetterView } from "../letter-view/letter-view"
 import { MainDetailsView } from "../main-details-view/main-details-view"
+import { AdditionalDetailsView } from "../additional-details-view/additional-details-view"
 
 export const MainView = () => {
     //set states
@@ -43,6 +44,10 @@ export const MainView = () => {
 
             { page === 2 && (
                 <MainDetailsView />
+            )}
+
+            { page === 3 && (
+                <AdditionalDetailsView />
             )}
         </div>
 

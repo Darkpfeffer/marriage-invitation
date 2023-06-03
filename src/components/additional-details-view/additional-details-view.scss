@@ -1,0 +1,200 @@
+.additional-details {
+    background-color: rgba(250, 250, 250, 0.85);
+    width: 1307px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 75px;
+    padding-top: 46px;
+    padding-bottom: 22px;
+}
+
+.additional-header, .additional-text {
+    color: #000B4B;
+}
+
+.additional-header {
+    font-family: 'Great Vibes';
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 57px;
+    margin-left: 46px;
+    margin-right: 46px;
+}
+
+.additional-text {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 31px;
+    margin-left: 46px;
+    margin-right: 46px;
+    margin-bottom: 27px;
+}
+
+@media all and (max-width: 1920px) {// height 912px
+    .additional-details {
+        margin-top: 3.5%;
+    }
+}
+
+@media all and (max-width: 1850px) {//height 878px
+    .additional-details {
+        width: 1137px;
+        padding-top: 40px;
+        padding-bottom: 16px;
+        margin-top: 5%;
+    }
+    
+    .additional-header {
+        font-size: 40px;
+        line-height: 49px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .additional-text {
+        font-size: 20px;
+        line-height: 27px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 24px;
+    }
+}
+
+@media all and (max-width: 1700px) {//height 807px
+    .additional-details {
+        margin-top: 4%;
+    }
+}
+
+@media all and (max-width: 1650px) { //height 783px
+    .additional-details {
+        width: 966px;
+        padding-top: 34px;
+        padding-bottom: 14px;
+        margin-top: 7%;
+    }
+    
+    .additional-header {
+        font-size: 34px;
+        line-height: 41px;
+        margin-left: 34px;
+        margin-right: 34px;
+    }
+    
+    .additional-text {
+        font-size: 17px;
+        line-height: 22px;
+        margin-left: 34px;
+        margin-right: 34px;
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 1600px) { //height 760px
+    .additional-details {
+        margin-top: 6.5%;
+    }
+}
+
+@media all and (max-width: 1550px) { //height 736px
+    .additional-details {
+        margin-top: 6%;
+    }
+}
+
+@media all and (max-width: 1500px) { //height 712px
+    .additional-details {
+        margin-top: 5.5%;
+    }
+}
+
+@media all and (max-width: 1450px) { //height 688px
+    .additional-details {
+        margin-top: 5%;
+    }
+}
+
+@media all and (max-width: 1400px) { //height 665px
+    .additional-details {
+        width: 851px;
+        padding-top: 29px;
+        padding-bottom: 12px;
+        margin-top: 7%;
+    }
+    
+    .additional-header {
+        font-size: 29px;
+        line-height: 36px;
+        margin-left: 29px;
+        margin-right: 29px;
+    }
+    
+    .additional-text {
+        font-size: 15px;
+        line-height: 19px;
+        margin-left: 29px;
+        margin-right: 29px;
+        margin-bottom: 17px;
+    }
+}
+
+@media all and (max-width: 1350px) { //height 641px
+    .additional-details {
+        margin-top: 6%;
+    }
+}
+
+@media all and (max-width: 1300px) { //height 617px
+    .additional-details {
+        margin-top: 5%;
+    }
+}
+
+@media all and (max-width: 1250px) { //height 593px
+    .additional-details {
+        margin-top: 4.5%;
+    }
+}
+
+@media all and (max-width: 1200px) { //height 570px
+    .additional-details {
+        width: 737px;
+        padding-top: 25px;
+        padding-bottom: 11px;
+        margin-top: 7%;
+    }
+    
+    .additional-header {
+        font-size: 25px;
+        line-height: 31px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    .additional-text {
+        font-size: 13px;
+        line-height: 16px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 14px;
+    }
+}
+
+@media all and (max-width: 1150px) { //height 546px
+    .additional-details {
+        margin-top: 6%;
+    }
+}
+
+@media all and (max-width: 1150px) { //height 546px
+    .additional-details {
+        margin-top: 5%;
+    }
+}
+
+@media all and (max-width: 1150px) { //height 546px
+    .additional-details {
+        margin-top: 4.5%;
+    }
+}
