@@ -407,3 +407,105 @@
         margin-top: 18%;
     }
 }
+
+@media all and (max-width: 500px) { //height 862px
+    .additional-details {
+        width: 339px;
+        margin-top: 18%;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    
+    .additional-header {
+        font-size: 28px;
+        line-height: 34px;
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+    
+    .additional-text {
+        font-size: 15px;
+        line-height: 17px;
+        margin-left: 14px;
+        margin-right: 14px;
+        margin-bottom: 14px;
+    }
+}
+
+@media all and (max-width: 475px) { //height 818px
+    .additional-details {
+        margin-top: 14%;
+    }
+}
+
+@media all and (max-width: 455px) { //height 784px
+    .additional-details {
+        width: 271px;
+        margin-top: 24%;
+        padding-top: 11px;
+        padding-bottom: 11px;
+    }
+    
+    .additional-header {
+        font-size: 22px;
+        line-height: 27px;
+        margin-left: 11px;
+        margin-right: 11px;
+    }
+    
+    .additional-text {
+        font-size: 12px;
+        line-height: 13px;
+        margin-left: 11px;
+        margin-right: 11px;
+        margin-bottom: 11px;
+    }
+}
+
+@media all and (max-width: 380px) { //height 655px
+    .additional-details {
+        margin-top: 16%;
+    }
+}
+
+@media all and (max-width: 359px) { //height 618px
+    .additional-details {
+        width: 248px;
+        margin-top: 22%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .additional-header {
+        font-size: 20px;
+        line-height: 24px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .additional-text {
+        font-size: 11px;
+        line-height: 11px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media all and (max-width: 248px) { //height 427px
+    .additional-details {
+        margin-top: 30%;
+    }
+}
+
+@media all and (max-width: 190px) { //height 327px
+    .additional-details {
+        margin-top: 50%;
+    }
+}
+
+@media all and (max-width: 160px) { //height 275px
+    .additional-details {
+        margin-top: 70%;
+    }
+}
