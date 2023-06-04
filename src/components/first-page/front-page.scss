@@ -1,11 +1,9 @@
 /* Front page styling*/
 .front-page {
-    width: 1500px;
+    width: 1475px;
     margin-left: auto;
     margin-right: auto;
     font-style: normal;
-    font-size: 240px;
-    line-height: 313px;
     color: #ffffff;
 
     filter: drop-shadow(0px 0px 50px #000000);
@@ -13,125 +11,144 @@
 
 #Kincso {
     margin-top: 110px;
-    height: 260px;
+    height: 50px;
+}
+
+.front-page__k {
     letter-spacing: 0.05em;
 }
 
 #and {
     display: flex;
-    height: 264px;
-    line-height: 240px;
+    height: 50px;
     justify-content: center;
 }
 
 #Zoltan {
     display: flex;
-    height: 272px;
-    line-height: 100px;
+    height: 0px;
     justify-content: end;
-    padding-right: 280px;
+    width: 1300px;
 }
 
 //media queries for max-width
+//desktop-view
 @media all and (max-width: 1920px) { //height 912px
     #Kincso {
-        margin-top: 175px;
+        margin-top: 6%;
+        height: 55px;
     }
 }
 
-@media all and (max-width: 1800px) { //height 1012px
-    .front-page {
-        font-size: 200px;
-        width: 1250px;
-    }
-
-    #Kincso, #Zoltan, #and {
-        height: 220px;
-    }
-}
-
-@media all and (max-width: 1580px) { //height 888px
-    .front-page {
-        font-size: 180px;
-        width: 1125px;
-    }
-
-    #Kincso {
-        margin-top: 125px;
-        line-height: 360px;
-    }
-
+@media all and (max-width: 1850px) { //height 878px 
     #and {
-        line-height: 200px;
+        height: 45px;
     }
 
     #Zoltan {
-        line-height: 75px;
+        width: 1225px;
     }
 }
 
-@media all and (max-width: 1485px) { //height 835px
+@media all and (max-width: 1730px) { //height 821px 
     .front-page {
-        font-size: 160px;
+        width: 1300px;
+    }
+
+    #and {
+        height: 40px;
+    }
+
+    #Zoltan {
+        width: 1175px;
+    }
+}
+
+@media all and (max-width: 1610px) { //height 764px 
+    .front-page {
+        width: 1175px;
+    }
+
+    #Kincso {
+        height: 50px
+    }
+
+    #and {
+        height: 35px;
+    }
+
+    #Zoltan {
+        width: 1025px;
+    }
+}
+
+@media all and (max-width: 1460px) { //height 693px 
+    .front-page {
+        width: 1050px;
+    }
+
+    #Kincso {
+        height: 45px
+    }
+
+    #and {
+        height: 30px;
+    }
+
+    #Zoltan {
+        width: 925px;
+    }
+}
+
+@media all and (max-width: 1320px) { //height 627px 
+    .front-page {
         width: 1000px;
     }
 
-    #Kincso, #Zoltan, #and {
-        height: 200px;
-    }
-
-    #Kincso {
-        margin-top: 100px;
-        height: 170px;
-    }
-
-    #and {
-        line-height: 280px;
-        height: 180px
-    }
-
     #Zoltan {
-        line-height: 210px;
-        width: 830px;
-        padding-right: 0px;
-        line-height: 180px;
+        width: 875px;
     }
 }
 
-@media all and (max-width: 1298px) { //height 730px
-    #Kincso {
-        margin-top: 50px;
-    }
-}
-
-@media all and (max-width: 1175px) { //height 660px
-    #Kincso {
-        margin-top: 30px;
-    }
-}
-
-@media all and (max-width: 1055px) {  //height 593px
+@media all and (max-width: 1248px) { // height 592px 
     .front-page {
-        font-size: 140px;
-        width: 870px;
+        width: 945px;
     }
 
     #Kincso {
-        height: 150px;
+        height: 40px
     }
 
     #and {
-        height: 170px;
+        height: 25px;
     }
 
     #Zoltan {
-        width: 725px;
+        width: 825px;
     }
 }
 
-@media all and (max-width: 995px) { //height 559px
+@media all and (max-width: 1190px) { // height 565px 
+    .front-page {
+        width: 885px;
+    }
+
+    #Zoltan {
+        width: 760px;
+    }
+}
+
+@media all and (max-width: 1080px) { //height 513px 
+    .front-page {
+        width: 825px;
+    }
+
     #Kincso {
-        margin-top: 10px;
+        height: 35px
+    }
+
+    #Zoltan {
+        width: 710px;
     }
 }
 

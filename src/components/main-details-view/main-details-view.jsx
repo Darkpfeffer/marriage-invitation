@@ -4,7 +4,7 @@ export const MainDetailsView = () => {
     return (
         <div className="main-details">
             <div className="main-details__date">
-                <h1 className="main-details__header" id="date-header">Dátum</h1>
+                <h2 className="main-details__header" id="date-header">Dátum</h2>
                 <div className="main-details__content">
                     <p className="main-details__text" id="date">11 - 11</p>
                     <p className="main-details__text" id="year">2023</p>
@@ -13,7 +13,7 @@ export const MainDetailsView = () => {
                 </div>
             </div>
             <div className="main-details__ceremony">
-                <h1 className="main-details__header" id="ceremony">Szertartás</h1>
+                <h2 className="main-details__header" id="ceremony">Szertartás</h2>
                 <div className="main-details__content">
                     <p className="main-details__text" id="house">Hiemer-Ház</p>
                     <p className="main-details__text" id="room">Házasságkötő Terem</p>
@@ -22,7 +22,7 @@ export const MainDetailsView = () => {
                 </div>
             </div>
             <div className="main-details__lunch">
-                <h1 className="main-details__header" id="lunch">Ebéd</h1>
+                <h2 className="main-details__header" id="lunch">Ebéd</h2>
                 <div className="main-details__content">
                     <p className="main-details__text" id="place">Rosetta Étterem</p>
                     <p className="main-details__text" id="address">Szent István tér 14.</p>

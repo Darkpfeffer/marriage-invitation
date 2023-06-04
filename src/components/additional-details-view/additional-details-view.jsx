@@ -3,7 +3,7 @@ import "./additional-details-view.scss"
 export const AdditionalDetailsView = () => {
     return (
         <div className="additional-details">
-            <p className="additional-header">Lesz - Nem lesz</p>
+            <h4 className="additional-header">Lesz - Nem lesz</h4>
             <p className="additional-text">
                 Nem lesz: papíralapú meghívó, rizsszórás, <br className="mobile"/>
                 menyasszony/menyecske/vejecsketánc, <br className="mobile"/>
@@ -12,7 +12,7 @@ export const AdditionalDetailsView = () => {
                 saját fogadalom, néhány örömkönny, <br className="mobile"/>
                 kvíz és más meglepik!
             </p>
-            <p className="additional-header">Dress Code</p>
+            <h4 className="additional-header">Dress Code</h4>
             <p className="additional-text">
                 Hogy bárki messziről kiszúrhassa az <br className="mobile"/>
                 összeesküvőket a tömegben, tisztelettel arra <br className="mobile"/>
@@ -22,7 +22,7 @@ export const AdditionalDetailsView = () => {
                 inkább a szürke 50 árnyalatát, vagy a <br className="mobile"/>
                 szivárvány bármely színét!
             </p>
-            <p className="additional-header">Megörökített pillanatok</p>
+            <h4 className="additional-header">Megörökített pillanatok</h4>
             <p className="additional-text">
                 Profi fotók készülnek majd az Esküvőn és a <br className="mobile"/>
                 Nászúton, amiket kérésre megosztunk <br className="mobile"/>
@@ -35,13 +35,13 @@ export const AdditionalDetailsView = () => {
                 tartózkodjanak az intim pillanatok <br className="mobile"/>
                 posztolásától.
             </p>
-            <p className="additional-header">Nászajándék</p>
+            <h4 className="additional-header">Nászajándék</h4>
             <p className="additional-text">
                 A leendő friss házasok irulva-pirulva, hálás <br className="mobile"/>
                 szívvel fogják fogadni a borítékba rejtett, <br className="mobile"/>
                 papíralapú nászajándékokat.
             </p>
-            <p className="additional-header">Visszajelzés</p>
+            <h4 className="additional-header">Visszajelzés</h4>
             <p className="additional-text">
             Midőn megszületett a döntés a részvételről, <br className="mobile"/>
             és a dátum is bekerült a naptárba, kérjük <br className="mobile"/>

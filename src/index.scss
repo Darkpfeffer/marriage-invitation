@@ -10,17 +10,30 @@ body {
     background-attachment: fixed;
 }
 
-h1 {
+h1, h2, h3, h4 {
     font-family: 'Great Vibes';
     font-weight: 400;
     color: #000B4B;
 }
 
-h6 {
-    font-family: 'Great Vibes';
-    font-weight: 400;
+h1, .front-page {
+    font-size: 250px;
+    line-height: 313px;
+}
+
+h2, .letter-header {
+    font-size: 100px;
+    line-height: 125px;
+}
+
+h3 {
+    font-size: 80px;
+    line-height: 100px;
+}
+
+h4 {
     font-size: 50px;
-    color: #000B4B;
+    line-height: 62px;
 }
 
 p {
@@ -85,7 +98,156 @@ p {
     }
 }
 
+//font-size media query settings
+@media all and (max-width: 1850px) { //height 878px
+    h1, .front-page {
+        font-size: 240px;
+        line-height: 300px;
+    }
+
+    h2, .letter-header {
+        font-size: 96px;
+        line-height: 120px;
+    }
+    
+    p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+
+@media all and (max-width: 1730px) { //height 821px
+    h1, .front-page {
+        font-size: 220px;
+        line-height: 275px;
+    }
+    
+    h2, .letter-header {
+        font-size: 88px;
+        line-height: 110px;
+    }
+    
+    p {
+        font-size: 22px;
+        line-height: 29px;
+    }
+}
+
+@media all and (max-width: 1610px) { //height 764px
+    h1, .front-page {
+        font-size: 200px;
+        line-height: 250px;
+    }
+    
+    h2, .letter-header {
+        font-size: 80px;
+        line-height: 100px;
+    }
+    
+    p {
+        font-size: 20px;
+        line-height: 27px;
+    }
+}
+
+@media all and (max-width: 1460px) { //height 693px
+    h1, .front-page {
+        font-size: 180px;
+        line-height: 225px;
+    }
+    
+    h2, .letter-header {
+        font-size: 72px;
+        line-height: 90px;
+    }
+    
+    p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media all and (max-width: 1320px) { //height 627px
+    h1, .front-page {
+        font-size: 170px;
+        line-height: 212px;
+    }
+    
+    h2, .letter-header {
+        font-size: 68px;
+        line-height: 85px;
+    }
+    
+    p {
+        font-size: 17px;
+        line-height: 23px;
+    }
+}
+
+@media all and (max-width: 1248px) { // height 592px
+    h1, .front-page {
+        font-size: 160px;
+        line-height: 200px;
+    }
+    
+    h2, .letter-header {
+        font-size: 65px;
+        line-height: 81px;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media all and (max-width: 1190px) { // height 565px
+    h1, .front-page {
+        font-size: 150px;
+        line-height: 187px;
+    }
+    
+    h2, .letter-header {
+        font-size: 60px;
+        line-height: 75px;
+    }
+    
+    p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media all and (max-width: 1080px) { //height 513px
+    h1, .front-page {
+        font-size: 140px;
+        line-height: 175px;
+    }
+    
+    h2, .letter-header {
+        font-size: 56px;
+        line-height: 70px;
+    }
+    
+    p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
 //nav-buttons media query settings
+@media all and (max-width: 1850px) {
+    .navi-next {
+        right: 35px
+    }
+}
+
+@media all and (max-width: 1730px) {
+    .navi-back {
+        left: 45px;
+    }
+}
+
 @media all and (max-width: 1485px) {
     .navi-next {
         right: 20px;
@@ -100,27 +262,37 @@ p {
     }
 }
 
-@media all and (max-width: 1250px) {
+@media all and (max-width: 1330px) {
     .navi-next {
-        right: 5px;
-    }
-}
-
-@media all and (max-width: 1055px) {
-    .navi-back, .navi-next {
-        bottom: 40%;
-    }
-
-    .navi-next {
-        right: -10px;
+        right: 10px;
     }
 
     .navi-back {
-        left: 10px;
+        left: 35px
+    }
+}
+
+@media all and (max-width: 1250px) {
+    .navi-next {
+        right: -15px;
+    }
+
+    .navi-back {
+        left: 20px
     }
 
     .navi-back__img, .navi-next__img {
-        width: 70px;
+        width: 60px;
+    }
+
+    .navi-back, .navi-next {
+        bottom: 45%;
+    }
+}
+
+@media all and (max-width: 1080px) {
+    .navi-next {
+        right: -20px;
     }
 }
 

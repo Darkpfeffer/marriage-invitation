@@ -28,19 +28,10 @@
     margin-left: 110px;
 }
 
-.main-details__header {
-    font-size: 100px;
-    line-height: 125px;
-}
-
-.main-details__content {
-    font-size: 25px;
-    line-height: 34px;
-}
-
 .main-details__text, .main-details__header {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0px;
 }
 
 //size of the text to center them
@@ -53,11 +44,11 @@
 }
 
 #year {
-    width: 55px;
+    width: 60px;
 }
 
 #day {
-    width: 100px;
+    width: 105px;
 }
 
 #hour {
@@ -65,7 +56,7 @@
 }
 
 #ceremony {
-    width: 350px;
+    width: 340px;
 }
 
 #house {
