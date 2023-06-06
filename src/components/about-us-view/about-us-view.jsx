@@ -5,7 +5,7 @@ export const AboutUsView = () => {
     return (
         <div className="about-us-content">
             <img src={WikiImage} rel="wiki image" className="about-us__img"></img>
-            <h4 className="about-us__title"><span className="about-us__title--capital">K</span>incső és Zoltán története</h4>
+            <h3 className="about-us__title"><span className="about-us__title--capital">K</span>incső és Zoltán története</h3>
             <p>
                 <span className="about-us__year">2019</span>. április 19-én ismerkedtünk meg, Németországban, mikor közös ismerősünk bemutatott minket egymásnak munkahelyünkön. A nyilvánvaló nehézségek ellenére, hogy tudtuk, távkapcsolat vár ránk, összejöttünk. Júniusban már össze is költöztünk, de szeptembertől Kincső Budapestre ment tanulni, és csak pár hetente tudtunk találkozni. Az egyik ilyen találkozás során vettük meg első közös kiskedvencünket, egy Vénusz légycsapóját, ami egy rovaremésztő növény.
             </p>

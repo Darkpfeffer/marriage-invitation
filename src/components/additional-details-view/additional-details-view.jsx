@@ -6,8 +6,8 @@ export const AdditionalDetailsView = () => {
             <h4 className="additional-header">Lesz - Nem lesz</h4>
             <p className="additional-text">
                 Nem lesz: papíralapú meghívó, rizsszórás, <br className="mobile"/>
-                menyasszony/menyecske/vejecsketánc, <br className="mobile"/>
-                táncos mulatság.<br className="desktop mobile"/>
+                menyasszony/menyecske/vejecsketánc, <br className="mobile tablet"/>
+                táncos mulatság.<br/>
                 Lesz: koszorúslányok királykékben, <br className="mobile"/>
                 saját fogadalom, néhány örömkönny, <br className="mobile"/>
                 kvíz és más meglepik!
@@ -16,7 +16,7 @@ export const AdditionalDetailsView = () => {
             <p className="additional-text">
                 Hogy bárki messziről kiszúrhassa az <br className="mobile"/>
                 összeesküvőket a tömegben, tisztelettel arra <br className="mobile"/>
-                kérünk minden Hölgyet és Urat,<br className="desktop"/>
+                kérünk minden Hölgyet és Urat, <br className="desktop"/>
                 hogy ne <br className="mobile"/>
                 fehéret vagy feketét viseljenek. Válasszák <br className="mobile"/>
                 inkább a szürke 50 árnyalatát, vagy a <br className="mobile"/>
@@ -26,10 +26,10 @@ export const AdditionalDetailsView = () => {
             <p className="additional-text">
                 Profi fotók készülnek majd az Esküvőn és a <br className="mobile"/>
                 Nászúton, amiket kérésre megosztunk <br className="mobile"/>
-                Vendégeinkkel.<br className="desktop"/>
+                Vendégeinkkel. <br className="desktop"/>
                 Ennélfogva arra bátorítjuk <br className="mobile"/>
                 Násznépünket, fotózás és videózás helyett <br className="mobile"/>
-                éljenek a pillanatoknak!<br className="desktop"/>
+                éljenek a pillanatoknak! <br className="desktop"/>
                 Lelkes Facebooker <br className="mobile"/>
                 Vendégeinket tisztelettel kérjük, <br className="mobile"/>
                 tartózkodjanak az intim pillanatok <br className="mobile"/>

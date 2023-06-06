@@ -27,8 +27,8 @@ h2, .letter-header {
 }
 
 h3 {
-    font-size: 80px;
-    line-height: 100px;
+    font-size: 82px;
+    line-height: 101px;
 }
 
 h4 {
@@ -110,6 +110,11 @@ p {
         line-height: 120px;
     }
 
+    h3 {  
+        font-size: 78px;
+        line-height: 96px;
+    }
+
     h4 {
         font-size: 48px;
         line-height: 59px;
@@ -130,6 +135,11 @@ p {
     h2, .letter-header {
         font-size: 88px;
         line-height: 110px;
+    }
+
+    h3 {
+        font-size: 72px;
+        line-height: 88px;
     }
 
     h4 {
@@ -154,6 +164,11 @@ p {
         line-height: 100px;
     }
 
+    h3 {
+        font-size: 65px;
+        line-height: 80px;
+    }
+
     h4 {
         font-size: 40px;
         line-height: 49px;
@@ -174,6 +189,11 @@ p {
     h2, .letter-header {
         font-size: 72px;
         line-height: 90px;
+    }
+
+    h3 {
+        font-size: 59px;
+        line-height: 72px;
     }
 
     h4 {
@@ -198,6 +218,11 @@ p {
         line-height: 85px;
     }
 
+    h3 {
+        font-size: 55px;
+        line-height: 68px;
+    }
+
     h4 {
         font-size: 34px;
         line-height: 42px;
@@ -218,6 +243,11 @@ p {
     h2, .letter-header {
         font-size: 65px;
         line-height: 81px;
+    }
+
+    h3 {
+        font-size: 52px;
+        line-height: 64px;
     }
 
     h4 {
@@ -242,6 +272,11 @@ p {
         line-height: 75px;
     }
 
+    h3 {
+        font-size: 49px;
+        line-height: 60px;
+    }
+
     h4 {
         font-size: 30px;
         line-height: 37px;
@@ -264,6 +299,11 @@ p {
         line-height: 70px;
     }
 
+    h3 { 
+        font-size: 45px;
+        line-height: 56px;
+    }
+
     h4 {
         font-size: 28px;
         line-height: 34px;
@@ -278,27 +318,86 @@ p {
 //tablet view
 @media all and (max-width: 1035px) { //height 1427px
     h1, .front-page {
-        font-size: 240px;
-        line-height: 300px;
+        font-size: 290px;
+        line-height: 363px;
     }
 
     h2, .letter-header {
-        font-size: 96px;
-        line-height: 120px;
+        font-size: 116px;
+        line-height: 145px;
+    }
+
+    h3 {
+        font-size: 95px;
+        line-height: 117px;
     }
 
     h4, .additional-header{
-        font-size: 48px;
-        line-height: 59px;
+        font-size: 58px;
+        line-height: 71px;
     }
     
     p, .additional-text {
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 29px;
+        line-height: 39px;
     }
 }
 
 @media all and (max-width: 1034px) { //height 1426px 
+    h1, .front-page {
+        font-size: 270px;
+        line-height: 338px;
+    }
+    
+    h2, .letter-header {
+        font-size: 108px;
+        line-height: 135px;
+    }
+
+    h3 {
+        font-size: 88px;
+        line-height: 109px;
+    }
+
+    h4, .additional-header {
+        font-size: 54px;
+        line-height: 66px;
+    }
+    
+    p, .additional-text {
+        font-size: 27px;
+        line-height: 36px;
+    }
+}
+
+@media all and (max-width: 950px) { //height 1310px 
+    h1, .front-page {
+        font-size: 250px;
+        line-height: 313px;
+    }
+    
+    h2, .letter-header {
+        font-size: 100px;
+        line-height: 125px;
+    }
+
+    h3 {
+        font-size: 82px;
+        line-height: 101px;
+    }
+
+    h4, .additional-header {
+        font-size: 50px;
+        line-height: 62px;
+    }
+    
+    p, .additional-text {
+        font-size: 25px;
+        line-height: 34px;
+    }
+}
+
+@media all and (max-width: 875px) { //height 1206px
     h1, .front-page {
         font-size: 220px;
         line-height: 275px;
@@ -307,6 +406,11 @@ p {
     h2, .letter-header {
         font-size: 88px;
         line-height: 110px;
+    }
+
+    h3 {
+        font-size: 72px;
+        line-height: 88px;
     }
 
     h4, .additional-header {
@@ -320,7 +424,34 @@ p {
     }
 }
 
-@media all and (max-width: 1034px) { //height 1426px 
+@media all and (max-width: 775px) { //height 1068px 
+    h1, .front-page {
+        font-size: 210px;
+        line-height: 262px;
+    }
+    
+    h2, .letter-header {
+        font-size: 84px;
+        line-height: 105px;
+    }
+
+    h3 {
+        font-size: 68px;
+        line-height: 84px;
+    }
+
+    h4, .additional-header {
+        font-size: 42px;
+        line-height: 52px;
+    }
+    
+    p, .additional-text {
+        font-size: 21px;
+        line-height: 28px;
+    }
+}
+
+@media all and (max-width: 700px) { //height 965px 
     h1, .front-page {
         font-size: 200px;
         line-height: 250px;
@@ -329,6 +460,11 @@ p {
     h2, .letter-header {
         font-size: 80px;
         line-height: 100px;
+    }
+
+    h3 {
+        font-size: 65px;
+        line-height: 80px;
     }
 
     h4, .additional-header {
@@ -342,7 +478,7 @@ p {
     }
 }
 
-@media all and (max-width: 875px) { //height 1206px
+@media all and (max-width: 650px) { //height 896px 
     h1, .front-page {
         font-size: 180px;
         line-height: 225px;
@@ -351,6 +487,11 @@ p {
     h2, .letter-header {
         font-size: 72px;
         line-height: 90px;
+    }
+
+    h3 {
+        font-size: 59px;
+        line-height: 72px;
     }
 
     h4, .additional-header {
@@ -364,29 +505,34 @@ p {
     }
 }
 
-@media all and (max-width: 775px) { //height 1068px 
+@media all and (max-width: 600px) { //height 827px
     h1, .front-page {
-        font-size: 160px;
-        line-height: 200px;
+        font-size: 170px;
+        line-height: 212px;
     }
     
     h2, .letter-header {
-        font-size: 65px;
-        line-height: 81px;
+        font-size: 68px;
+        line-height: 85px;
+    }
+
+    h3 {
+        font-size: 55px;
+        line-height: 68px;
     }
 
     h4, .additional-header {
-        font-size: 32px;
-        line-height: 39px;
+        font-size: 34px;
+        line-height: 42px;
     }
     
     p, .additional-text {
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 17px;
+        line-height: 23px;
     }
 }
 
-@media all and (max-width: 700px) { //height 965px 
+@media all and (max-width: 550px) { //height 758px
     h1, .front-page {
         font-size: 150px;
         line-height: 187px;
@@ -397,6 +543,11 @@ p {
         line-height: 75px;
     }
 
+    h3 {
+        font-size: 49px;
+        line-height: 60px;
+    }
+
     h4, .additional-header {
         font-size: 30px;
         line-height: 37px;
@@ -405,72 +556,6 @@ p {
     p, .additional-text {
         font-size: 15px;
         line-height: 20px;
-    }
-}
-
-@media all and (max-width: 650px) { //height 896px 
-    h1, .front-page {
-        font-size: 140px;
-        line-height: 175px;
-    }
-    
-    h2, .letter-header {
-        font-size: 56px;
-        line-height: 70px;
-    }
-
-    h4, .additional-header {
-        font-size: 28px;
-        line-height: 34px;
-    }
-    
-    p, .additional-text {
-        font-size: 14px;
-        line-height: 19px;
-    }
-}
-
-@media all and (max-width: 600px) { //height 827px
-    h1, .front-page {
-        font-size: 130px;
-        line-height: 162px;
-    }
-    
-    h2, .letter-header {
-        font-size: 52px;
-        line-height: 65px;
-    }
-
-    h4, .additional-header {
-        font-size: 26px;
-        line-height: 32px;
-    }
-    
-    p, .additional-text {
-        font-size: 13px;
-        line-height: 17px;
-    }
-}
-
-@media all and (max-width: 550px) { //height 758px
-    h1, .front-page {
-        font-size: 120px;
-        line-height: 150px;
-    }
-    
-    h2, .letter-header {
-        font-size: 48px;
-        line-height: 60px;
-    }
-
-    h4, .additional-header {
-        font-size: 24px;
-        line-height: 29px;
-    }
-    
-    p, .additional-text {
-        font-size: 12px;
-        line-height: 16px;
     }
 }
 
@@ -550,15 +635,9 @@ p {
     }
 }
 
-@media all and (max-width: 768px) { //height 1228px
+@media all and (max-width: 900px) { //height 1228px
     .navi-back__img, .navi-next__img {
         width: 75px;
-    }
-}
-
-@media all and (max-width: 700px) { //height 965px
-    .navi-back, .navi-next {
-        bottom: 75%;
     }
 
     .navi-next {
@@ -566,23 +645,7 @@ p {
     }
 }
 
-@media all and (max-width: 650px) { //height 896px 
-    .navi-back__img, .navi-next__img {
-        width: 60px;
-    }
-
-    .navi-next {
-        right: -20px;
-    }
-}
-
-@media all and (max-width: 605px) { //height 968px
-    .navi-back {
-        left: 25px;
-    }
-}
-
-@media all and (max-width: 525px) { //height 724px 
+@media all and (max-width: 775px) {
     .navi-back__img, .navi-next__img {
         width: 50px;
     }
@@ -590,12 +653,33 @@ p {
     .navi-next {
         right: -35px;
     }
+}
+
+@media all and (max-width: 700px) {
+    .navi-back__img, .navi-next__img {
+        width: 45px;
+    }
+
+    .navi-next {
+        right: -45px;
+    }
 
     .navi-back {
-        left: 15px;
+        left: 10px;
     }
 }
 
+@media all and (max-width: 700px) { 
+    .navi-next {
+        right: -50px;
+    }
+
+    .navi-back {
+        left: 5px;
+    }
+}
+
+//mobile view
 @media all and (max-width: 450px) {
     .navi-next {
         right: -25px;

@@ -266,13 +266,13 @@
     .desktop {
         display: none;
     }
-    
-    .mobile {
+
+    .tablet {
         display: block;
     }
 
     .additional-details {
-        width: 545px;
+        width: 750px;
         margin-top: 8%;
         margin-bottom: 23px;
         padding-top: 24px;
@@ -293,7 +293,7 @@
 
 @media all and (max-width: 1034px) { //height 1426px 
     .additional-details {
-        width: 499px;
+        width: 700px;
         margin-top: 10%;
         margin-bottom: 22px;
         padding-top: 22px;
@@ -320,7 +320,7 @@
 
 @media all and (max-width: 950px) { //height 1310px
     .additional-details {
-        width: 454px;
+        width: 647px;
         margin-top: 15%;
         margin-bottom: 19px;
         padding-top: 20px;
@@ -353,7 +353,7 @@
 
 @media all and (max-width: 875px) { //height 1206px
     .additional-details {
-        width: 409px;
+        width: 569px;
         margin-top: 15%;
         margin-bottom: 17px;
         padding-top: 18px;
@@ -392,7 +392,7 @@
 
 @media all and (max-width: 775px) { //height 1068px 
     .additional-details {
-        width: 363px;
+        width: 540px;
         margin-top: 12%;
         margin-bottom: 13px;
         padding-top: 16px;
@@ -419,7 +419,7 @@
 
 @media all and (max-width: 700px) { //height 965px 
     .additional-details {
-        width: 341px;
+        width: 516px;
         margin-top: 13%;
         margin-bottom: 11px;
         padding-top: 15px;
@@ -446,7 +446,7 @@
 
 @media all and (max-width: 650px) { //height 896px
     .additional-details {
-        width: 318px;
+        width: 463px;
         margin-top: 10%;
         margin-bottom: 9px;
         padding-top: 14px;
@@ -473,7 +473,7 @@
 
 @media all and (max-width: 600px) { //height 827px 
     .additional-details {
-        width: 295px;
+        width: 437px;
         margin-top: 12%;
         margin-bottom: 8px;
         padding-top: 13px;
@@ -500,7 +500,7 @@
 
 @media all and (max-width: 550px) { //height 758px 
     .additional-details {
-        width: 273px;
+        width: 387px;
         margin-top: 10%;
         margin-bottom: 4px;
         padding-top: 12px;
@@ -527,6 +527,14 @@
 
 //mobile view
 @media all and (max-width: 500px) { //height 862px
+    .mobile {
+        display: block;
+    }
+
+    .tablet {
+        display: none;
+    }
+
     .additional-details {
         width: 339px;
         margin-top: 18%;
