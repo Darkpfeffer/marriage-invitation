@@ -364,7 +364,7 @@ p {
     }
 }
 
-@media all and (max-width: 875px) { //height 1206px 
+@media all and (max-width: 775px) { //height 1068px 
     h1, .front-page {
         font-size: 160px;
         line-height: 200px;
@@ -454,8 +454,8 @@ p {
 
 @media all and (max-width: 550px) { //height 758px
     h1, .front-page {
-        font-size: 150px;
-        line-height: 120px;
+        font-size: 120px;
+        line-height: 150px;
     }
     
     h2, .letter-header {
