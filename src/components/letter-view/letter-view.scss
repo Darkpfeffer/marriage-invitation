@@ -18,6 +18,10 @@
     margin-right: 40px;
 }
 
+.desktop {
+    display: block;
+}
+
 .mobile {
     display: none;
 }
@@ -175,51 +179,180 @@
 
 //tablet view
 @media all and (max-width: 1035px) { //height 1656
-    .mobile {
-        display: inherit;
+    .desktop {
+        display: none;
     }
 
     .letter {
-        width: 500px;
+        width: 770px;
         margin: 0 auto;
-        margin-top: 30%;
+        margin-top: 10%;
     }
 
     .letter-header {
-        font-size: 60px;
-        line-height: 70px;
+        padding-top: 29px;
+        margin-left: 29px;
+    }
+
+    .letter-text {
+        margin-left: 29px;
+        margin-right: 29px;
+        margin-bottom: 29px;
+    }
+}
+
+@media all and (max-width: 1034px) { //height 1656 
+    .letter {
+        width: 716px;
+    }
+
+    .letter-header {
+        padding-top: 27px;
+        margin-left: 27px;
+    }
+
+    .letter-text {
+        margin-left: 27px;
+        margin-right: 27px;
+        margin-bottom: 27px;
+    }
+}
+
+@media all and (max-width: 950px) { //height 1310px  
+    .letter {
+        width: 663px;
+    }
+
+    .letter-header {
+        padding-top: 25px;
+        margin-left: 25px;
+    }
+
+    .letter-text {
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+@media all and (max-width: 875px) { //height 1206px 
+    .letter {
+        width: 584px;
+    }
+
+    .letter-header {
+        padding-top: 22px;
+        margin-left: 22px;
+    }
+
+    .letter-text {
+        margin-left: 22px;
+        margin-right: 22px;
+        margin-bottom: 22px;
+    }
+}
+
+@media all and (max-width: 775px) { //height 1068px 
+    .letter {
+        width: 557px;
+    }
+
+    .letter-header {
+        padding-top: 21px;
+        margin-left: 21px;
+    }
+
+    .letter-text {
+        margin-left: 21px;
+        margin-right: 21px;
+        margin-bottom: 15px;
+    }
+}
+
+@media all and (max-width: 735px) { //height 965px 
+    .letter {
+        margin-top: 7%;
+    }
+}
+
+@media all and (max-width: 700px) { //height 965px 
+    .letter {
+        width: 531px;
+    }
+
+    .letter-header {
+        padding-top: 20px;
+        margin-left: 20px;
+    }
+
+    .letter-text {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+}
+
+@media all and (max-width: 650px) { //height 896px 
+    .letter {
+        width: 477px;
+    }
+
+    .letter-header {
+        padding-top: 18px;
+        margin-left: 18px;
+    }
+
+    .letter-text {
+        margin-left: 18px;
+        margin-right: 18px;
+        margin-bottom: 15px;
+    }
+}
+
+@media all and (max-width: 600px) { //height 827px 
+    .letter {
+        width: 451px;
+    }
+
+    .letter-header {
+        padding-top: 17px;
+        margin-left: 17px;
+    }
+
+    .letter-text {
+        margin-left: 17px;
+        margin-right: 17px;
+        margin-bottom: 15px;
+    }
+}
+
+@media all and (max-width: 550px) { //height 758px 
+    .letter {
+        width: 398px;
+    }
+
+    .letter-header {
         padding-top: 15px;
         margin-left: 15px;
     }
 
     .letter-text {
-        font-size: 22px;
-        line-height: 25px;
         margin-left: 15px;
         margin-right: 15px;
         margin-bottom: 15px;
-
-    }
-}
-
-@media all and (max-width: 600px) { //height 960px
-    .letter {
-        width: 344px;
-    }
-
-    .letter-header {
-        font-size: 40px;
-        line-height: 50px;
-    }
-
-    .letter-text {
-        font-size: 15px;
-        line-height: 19px;
     }
 }
 
 //mobile view
 @media all and (max-width: 500px) { //height 1075px
+    .tablet {
+        display: none;
+    }
+
+    .mobile {
+        display: block
+    }
+    
     .letter {
         margin-top: 40%;
         width: 88%;
