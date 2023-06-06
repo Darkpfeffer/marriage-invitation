@@ -162,70 +162,74 @@
         display: flex;
         justify-content: center;
         height: 325px;
-        margin: 0;
+        margin: 0px;
+        margin-bottom: 50px;
         width: auto;
     }
 
     #Kincso {
-        margin-top: 25%;
+        margin-top: 15%;
     }
 }
 
-@media all and (max-width: 1035px) { //height 1427px 
+@media all and (max-width: 1034px) { //height 1427px 
     #Kincso, #Zoltan, #and {
-        height: 297px;
+        height: 350px;
+        margin-bottom: 0px;
     }
 
     #Kincso {
-        margin-top: 27%;
+        margin-top: 15%;
+    }
+}
+
+@media all and (max-width: 955px) {
+    #Kincso, #Zoltan, #and {
+        height: 325px;
     }
 }
 
 @media all and (max-width: 875px) { //height 1206px 
     #Kincso, #Zoltan, #and {
-        height: 243px;
+        height: 265px;
     }
 
     #Kincso {
-        margin-top: 29%;
+        margin-top: 20%;
     }
 }
 
 @media all and (max-width: 775px) { //height 1068px 
     #Kincso, #Zoltan, #and {
-        height: 216px;
+        height: 253px;
     }
 }
 
 @media all and (max-width: 700px) { //height 965px 
     #Kincso, #Zoltan, #and {
-        height: 203px;
+        height: 241px;
     }
 
     #Kincso {
-        margin-top: 28%;
+        margin-top: 20%;
     }
 }
 
 @media all and (max-width: 650px) { //height 896px 
     #Kincso, #Zoltan, #and {
-        height: 189px;
+        height: 217px;
     }
 }
 
 @media all and (max-width: 600px) { //height 827px 
     #Kincso, #Zoltan, #and {
-        height: 176px;
-    }
-
-    #Kincso {
-        margin-top: 28%;
+        height: 205px;
     }
 }
 
 @media all and (max-width: 550px) { //height 758px 
     #Kincso, #Zoltan, #and {
-        height: 156px;
+        height: 181px;
     }
 }
 
