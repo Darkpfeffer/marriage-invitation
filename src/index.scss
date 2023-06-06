@@ -275,6 +275,205 @@ p {
     }
 }
 
+//tablet view
+@media all and (max-width: 1035px) { //height 1427px
+    h1, .front-page {
+        font-size: 240px;
+        line-height: 300px;
+    }
+
+    h2, .letter-header {
+        font-size: 96px;
+        line-height: 120px;
+    }
+
+    h4, .additional-header{
+        font-size: 48px;
+        line-height: 59px;
+    }
+    
+    p, .additional-text {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+
+@media all and (max-width: 1034px) { //height 1426px 
+    h1, .front-page {
+        font-size: 220px;
+        line-height: 275px;
+    }
+    
+    h2, .letter-header {
+        font-size: 88px;
+        line-height: 110px;
+    }
+
+    h4, .additional-header {
+        font-size: 44px;
+        line-height: 54px;
+    }
+    
+    p, .additional-text {
+        font-size: 22px;
+        line-height: 29px;
+    }
+}
+
+@media all and (max-width: 1034px) { //height 1426px 
+    h1, .front-page {
+        font-size: 200px;
+        line-height: 250px;
+    }
+    
+    h2, .letter-header {
+        font-size: 80px;
+        line-height: 100px;
+    }
+
+    h4, .additional-header {
+        font-size: 40px;
+        line-height: 49px;
+    }
+    
+    p, .additional-text {
+        font-size: 20px;
+        line-height: 27px;
+    }
+}
+
+@media all and (max-width: 875px) { //height 1206px
+    h1, .front-page {
+        font-size: 180px;
+        line-height: 225px;
+    }
+    
+    h2, .letter-header {
+        font-size: 72px;
+        line-height: 90px;
+    }
+
+    h4, .additional-header {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    
+    p, .additional-text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media all and (max-width: 875px) { //height 1206px 
+    h1, .front-page {
+        font-size: 160px;
+        line-height: 200px;
+    }
+    
+    h2, .letter-header {
+        font-size: 65px;
+        line-height: 81px;
+    }
+
+    h4, .additional-header {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    
+    p, .additional-text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media all and (max-width: 700px) { //height 965px 
+    h1, .front-page {
+        font-size: 150px;
+        line-height: 187px;
+    }
+    
+    h2, .letter-header {
+        font-size: 60px;
+        line-height: 75px;
+    }
+
+    h4, .additional-header {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    
+    p, .additional-text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media all and (max-width: 650px) { //height 896px 
+    h1, .front-page {
+        font-size: 140px;
+        line-height: 175px;
+    }
+    
+    h2, .letter-header {
+        font-size: 56px;
+        line-height: 70px;
+    }
+
+    h4, .additional-header {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    
+    p, .additional-text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+@media all and (max-width: 600px) { //height 827px
+    h1, .front-page {
+        font-size: 130px;
+        line-height: 162px;
+    }
+    
+    h2, .letter-header {
+        font-size: 52px;
+        line-height: 65px;
+    }
+
+    h4, .additional-header {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    
+    p, .additional-text {
+        font-size: 13px;
+        line-height: 17px;
+    }
+}
+
+@media all and (max-width: 550px) { //height 758px
+    h1, .front-page {
+        font-size: 150px;
+        line-height: 120px;
+    }
+    
+    h2, .letter-header {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    h4, .additional-header {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    
+    p, .additional-text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
 //nav-buttons media query settings
 @media all and (max-width: 1850px) {
     .navi-next {
@@ -345,6 +544,10 @@ p {
     .navi-back__img, .navi-next__img {
         width: 90px;
     }
+
+    .navi-next {
+        right: 10px;
+    }
 }
 
 @media all and (max-width: 768px) { //height 1228px
@@ -353,17 +556,43 @@ p {
     }
 }
 
+@media all and (max-width: 700px) { //height 965px
+    .navi-back, .navi-next {
+        bottom: 75%;
+    }
+
+    .navi-next {
+        right: -5px;
+    }
+}
+
+@media all and (max-width: 650px) { //height 896px 
+    .navi-back__img, .navi-next__img {
+        width: 60px;
+    }
+
+    .navi-next {
+        right: -20px;
+    }
+}
+
 @media all and (max-width: 605px) { //height 968px
     .navi-back {
         left: 25px;
     }
+}
 
-    .navi-next {
-        right: 0px;
+@media all and (max-width: 525px) { //height 724px 
+    .navi-back__img, .navi-next__img {
+        width: 50px;
     }
 
-    .navi-back__img, .navi-next__img {
-        width: 64px;
+    .navi-next {
+        right: -35px;
+    }
+
+    .navi-back {
+        left: 15px;
     }
 }
 
