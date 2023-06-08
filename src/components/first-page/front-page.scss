@@ -234,141 +234,56 @@
 }
 
 //mobile view
-@media all and (max-width: 500px) { //height 1075px
-
+@media all and (max-width: 500px) { //height 862px
     #Kincso, #Zoltan, #and {
-        height: 220px;
+        height: 175px;
     }
 
     #Kincso {
-        margin-top: 200px;
+        margin-top: 35%;
     }
 }
 
-@media all and (max-width: 450px) { //height 968px
-    #Kincso {
-        margin-top: 150px;
-    }
-}
-
-@media all and (max-width: 420px) { //height 903px
-    #Kincso {
-        margin-top: 125px;
-    }
-}
-
-@media all and (max-width: 400px) { //height 860px
-
+@media all and (max-width: 465px) { //height 801px 
     #Kincso, #Zoltan, #and {
-        height: 190px;
+        height: 164px;
     }
 }
 
-@media all and (max-width: 375px) { //height 806px
-    #Kincso {
-        margin-top: 100px;
-    }
-}
-
-@media all and (max-width: 350px) { //height 752px
-}
-
-@media all and (max-width: 330px) {
-    .front-page {
-        font-size: 75px;
-    }
-
+@media all and (max-width: 435px) { //height 750px 
     #Kincso, #Zoltan, #and {
-        height: 160px;
-    }
-
-    #Kincso {
-        margin-top: 90px;
+        height: 154px;
     }
 }
 
-@media all and (max-width: 270px) { //height 580px
-    .front-page {
-        font-size: 60px;
-    }
-
+@media all and (max-width: 405px) { //height 698px 
     #Kincso, #Zoltan, #and {
-        height: 140px;
-    }
-
-    #Kincso {
-        margin-top: 35px;
+        height: 144px;
     }
 }
 
-@media all and (max-width: 240px) { //height 516px
-    #Kincso {
-        margin-top: 10px;
-    }
-
-    #and {
-        line-height: 260px;
-    }
-}
-
-@media all and (max-width: 219px) { //height 470px
-    .front-page {
-        font-size: 50px;
-    }
-
+@media all and (max-width: 375px) { //height 646px 
     #Kincso, #Zoltan, #and {
-        height: 125px;
-    }
-
-    #Kincso {
-        margin-top: 0px;
+        height: 133px;
     }
 }
 
-@media all and (max-width: 200px) { //height 430px
-    #Kincso {
-        line-height: 275px;
-    }
-
-    #and {
-        line-height: 200px;
-    }
-
-    #Zoltan {
-        line-height: 130px;
-        height: 0px
+@media all and (max-width: 345px) { //height 594px 
+    #Kincso, #Zoltan, #and {
+        height: 123px;
     }
 }
 
-@media all and (max-width: 180px) { //height 387
-    .front-page {
-        font-size: 42px;
-    }
-
-    #Kincso {
-        line-height: 250px;
-    }
-
-    #and {
-        line-height: 150px;
-    }
-
-    #Zoltan {
-        line-height: 55px;
+@media all and (max-width: 315px) { //height 543px 
+    #Kincso, #Zoltan, #and {
+        height: 113px;
     }
 }
 
-@media all and (max-width: 150px) {// height 322px
-    #Kincso {
-        line-height: 200px;
-    }
-
-    #and {
-        line-height: 75px;
-        height: 100px;
-    }
-
-    #Zoltan {
-        line-height: 0px;
+@media all and (max-width: 220px) { //height 362px 
+    #Kincso, #Zoltan, #and {
+        font-size: 48px;
+        line-height: 60px;
+        height: 69px;
     }
 }
