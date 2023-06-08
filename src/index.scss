@@ -10,7 +10,7 @@ body {
     background-attachment: fixed;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     font-family: 'Great Vibes';
     font-weight: 400;
     color: #000B4B;
@@ -562,23 +562,28 @@ p {
 //mobile view
 @media all and (max-width: 500px) { //height 862px
     h1, .front-page {
-        font-size: 170px;
-        line-height: 212px;
+        font-size: 113px;
+        line-height: 141px;
     }
     
-    h2, .letter-header {
-        font-size: 68px;
-        line-height: 85px;
+    h2 {
+        font-size: 56px;
+        line-height: 70px;
     }
 
-    h3 {
-        font-size: 55px;
-        line-height: 68px;
+    h3, .letter-header {
+        font-size: 45px;
+        line-height: 56px;
     }
 
     h4, .additional-header {
+        font-size: 39px;
+        line-height: 47px;
+    }
+
+    h5 {
         font-size: 34px;
-        line-height: 42px;
+        line-height: 41px;
     }
     
     p, .additional-text, .letter-text {
@@ -589,21 +594,26 @@ p {
 
 @media all and (max-width: 465px) { //height 801px
     h1, .front-page {
-        font-size: 160px;
-        line-height: 200px;
+        font-size: 106px;
+        line-height: 133px;
     }
     
-    h2, .letter-header {
-        font-size: 65px;
-        line-height: 81px;
+    h2 {
+        font-size: 53px;
+        line-height: 66px;
     }
 
-    h3 {
-        font-size: 52px;
-        line-height: 64px;
+    h3, .letter-header {
+        font-size: 42px;
+        line-height: 68px;
     }
 
-    h4 {
+    h4, .additional-header {
+        font-size: 37px;
+        line-height: 45px;
+    }
+
+    h5 {
         font-size: 32px;
         line-height: 39px;
     }
@@ -620,17 +630,22 @@ p {
         line-height: 125px;
     }
     
-    h2, .letter-header {
+    h2 {
+        font-size: 50px;
+        line-height: 62px;
+    }
+
+    h3, .letter-header {
         font-size: 40px;
         line-height: 50px;
     }
 
-    h3 {
+    h4, .additional-header {
         font-size: 35px;
         line-height: 43px;
     }
 
-    h4, .additional-header {
+    h5 {
         font-size: 30px;
         line-height: 37px;
     }
@@ -643,28 +658,129 @@ p {
 
 @media all and (max-width: 405px) { //height 698px
     h1, .front-page {
-        font-size: 140px;
-        line-height: 174px;
+        font-size: 93px;
+        line-height: 116px;
     }
     
-    h2, .letter-header {
-        font-size: 55px;
-        line-height: 69px;
+    h2 {
+        font-size: 46px;
+        line-height: 57px;
     }
 
-    h3 {
-        font-size: 45px;
-        line-height: 55px;
+    h3, .letter-header {
+        font-size: 37px;
+        line-height: 46px;
     }
 
     h4, .additional-header {
-        font-size: 27px;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    h5 {
+        font-size: 28px;
         line-height: 34px;
     }
     
     p, .additional-text, .letter-text {
         font-size: 14px;
         line-height: 18px;
+    }
+}
+
+@media all and (max-width: 375px) { //height 646px
+    h1, .front-page {
+        font-size: 86px;
+        line-height: 108px;
+    }
+    
+    h2 {
+        font-size: 43px;
+        line-height: 53px;
+    }
+
+    h3, .letter-header {
+        font-size: 34px;
+        line-height: 43px;
+    }
+
+    h4, .additional-header {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    h5 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    
+    p, .additional-text, .letter-text {
+        font-size: 13px;
+        line-height: 17px;
+    }
+}
+
+@media all and (max-width: 345px) { //height 594px
+    h1, .front-page {
+        font-size: 80px;
+        line-height: 100px;
+    }
+    
+    h2 {
+        font-size: 40px;
+        line-height: 49px;
+    }
+
+    h3, .letter-header {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    h4, .additional-header {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    h5 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    
+    p, .additional-text, .letter-text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+@media all and (max-width: 315px) { //height 543px
+    h1, .front-page {
+        font-size: 73px;
+        line-height: 91px;
+    }
+    
+    h2 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    h3, .letter-header {
+        font-size: 29px;
+        line-height: 36px;
+    }
+
+    h4, .additional-header {
+        font-size: 25px;
+        line-height: 31px;
+    }
+
+    h5 {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    
+    p, .additional-text, .letter-text {
+        font-size: 11px;
+        line-height: 14px;
     }
 }
 

@@ -59,6 +59,14 @@ h4 {
     margin-left: 90px;
 }
 
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
 //media queries
 //desktop view
 @media all and (max-width: 1850px) { //height 878px
@@ -976,4 +984,13 @@ h4 {
     h4 {
         margin-left: 41px;
     }
+}
+
+//mobile view
+.mobile {
+    display: block;
+}
+
+.desktop {
+    display: none;
 }

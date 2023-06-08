@@ -22,6 +22,10 @@
     display: block;
 }
 
+.tablet {
+    display: none;
+}
+
 .mobile {
     display: none;
 }
@@ -181,6 +185,10 @@
 @media all and (max-width: 1035px) { //height 1656
     .desktop {
         display: none;
+    }
+
+    .tablet {
+        display: block;
     }
 
     .letter {
