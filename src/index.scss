@@ -559,6 +559,115 @@ p {
     }
 }
 
+//mobile view
+@media all and (max-width: 500px) { //height 862px
+    h1, .front-page {
+        font-size: 170px;
+        line-height: 212px;
+    }
+    
+    h2, .letter-header {
+        font-size: 68px;
+        line-height: 85px;
+    }
+
+    h3 {
+        font-size: 55px;
+        line-height: 68px;
+    }
+
+    h4, .additional-header {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    
+    p, .additional-text, .letter-text {
+        font-size: 17px;
+        line-height: 23px;
+    }
+}
+
+@media all and (max-width: 465px) { //height 801px
+    h1, .front-page {
+        font-size: 160px;
+        line-height: 200px;
+    }
+    
+    h2, .letter-header {
+        font-size: 65px;
+        line-height: 81px;
+    }
+
+    h3 {
+        font-size: 52px;
+        line-height: 64px;
+    }
+
+    h4 {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media all and (max-width: 435px) { //height 750px
+    h1, .front-page {
+        font-size: 100px;
+        line-height: 125px;
+    }
+    
+    h2, .letter-header {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    h3 {
+        font-size: 35px;
+        line-height: 43px;
+    }
+
+    h4, .additional-header {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    
+    p, .additional-text, .letter-text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media all and (max-width: 405px) { //height 698px
+    h1, .front-page {
+        font-size: 140px;
+        line-height: 174px;
+    }
+    
+    h2, .letter-header {
+        font-size: 55px;
+        line-height: 69px;
+    }
+
+    h3 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    h4, .additional-header {
+        font-size: 27px;
+        line-height: 34px;
+    }
+    
+    p, .additional-text, .letter-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
 //nav-buttons media query settings
 @media all and (max-width: 1850px) {
     .navi-next {
