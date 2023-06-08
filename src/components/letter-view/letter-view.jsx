@@ -40,20 +40,20 @@ export const LetterView = () => {
                 <p className="letter-text">
                     Több éves próbaidő után Zoli úgy döntött, <br className="mobile"></br> 
                     az elkövetkezendő évtizedeket is Kincsővel <br className="mobile"></br>
-                    kívánja tölteni, így megkérte a kezét. <br className="mobile desktop"/>
+                    kívánja tölteni, így megkérte a kezét. <br className="mobile"/>
                     Kincső szintúgy meggyőződött arról, hogy <br className="mobile"></br>
                     neki Zolival a legjobb, ezért a gyümölcsöző <br className="mobile"></br>
-                    folytatás érdekében igent mondott. <br className="mobile desktop"/>
+                    folytatás érdekében igent mondott. <br className="mobile"/>
                     A sikeres eljegyzést természetesen <br className="mobile"></br>
-                    menyegzővel koronázzuk. <br className="mobile desktop"/>
+                    menyegzővel koronázzuk. <br className="mobile"/>
                     Idén novemberben nem csak négyszemközt, <br className="mobile"></br>
                     hanem szem- és fültanúk előtt, <br className="mobile"></br>
-                    hivatalosan is igent mondunk egymásnak. <br className="mobile desktop"/>
+                    hivatalosan is igent mondunk egymásnak. <br className="mobile"/>
                     Házasságunk első óráiban szeretnénk <br className="mobile"></br>
-                    jóakaratú és jókedvű társaságban ünnepelni. <br className="mobile desktop"/>
+                    jóakaratú és jókedvű társaságban ünnepelni. <br className="mobile"/>
                     Ezen sorok olvasása azt jelenti, egyike vagy <br className="mobile"></br>
                     azoknak, akiknek jelenléte megszépítené <br className="mobile"></br>
-                    esküvőnk életre szóló emlékét. <br className="mobile desktop"/>
+                    esküvőnk életre szóló emlékét. <br className="mobile"/>
                     Fogadd hát jószívvel szeretetteljes <br className="mobile"></br>
                     meghívásunkat a házasságkötésünkre, <br className="mobile"></br>
                     és az azt követő ünnepi lakomára! <br/>

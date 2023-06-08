@@ -346,132 +346,134 @@
 }
 
 //mobile view
-@media all and (max-width: 500px) { //height 1075px
+@media all and (max-width: 500px) { //height 862px
+    .desktop {
+        display: none;
+    }
+    
     .tablet {
         display: none;
     }
 
     .mobile {
-        display: block
+        display: block;
     }
     
     .letter {
-        margin-top: 40%;
-        width: 88%;
+        width: 389px;
+        margin-top: 20%;
     }
 
     .letter-header {
-        font-size: 52px;
-        line-height: 75px;
+        padding-top: 17px;
+        margin-left: 17px;
     }
 
     .letter-text {
-        font-size: 19px;
-        line-height: 25px;
+        margin-left: 17px;
+        margin-right: 17px;
+        margin-bottom: 17px;
     }
 }
 
-@media all and (max-width: 485px) { //height 1043px
-    .letter-header {
-        font-size: 48px;
-        line-height: 65px;
-    }
-
-    .letter-text {
-        font-size: 18px;
-        line-height: 22px;
-    }
-}
-
-@media all and (max-width: 465px) { //height 1000px
-    .letter-header {
-        font-size: 45px;
-        line-height: 56px;
-    }
-    
-    .letter-text {
-        font-size: 17px;
-    }
-}
-
-@media all and (max-width: 436px) { //height 935px
-    .letter-header {
-        font-size: 43px;
-        line-height: 53px;
-    }
-
-    .letter-text {
-        font-size: 16px;
-        line-height: 21px;
-    }
-}
-
-@media all and (max-width: 412px) { //height 886px
-    .letter-header {
-        font-size: 40px;
-        line-height: 50px;
-    }
-
-    .letter-text {
-        font-size: 15px;
-        line-height: 20px;
-    }
-}
-
-@media all and (max-width: 389px) { //height 836px
-    .letter-header {
-        font-size: 37px;
-        line-height: 46px;
-    }
-    
-    .letter-text {
-        font-size: 14px;
-        line-height: 18px;
-    }
-}
-
-@media all and (max-width: 365px) { //height 784px
-    .letter-header {
-        font-size: 34px;
-        line-height: 42px;
-    }
-    
-    .letter-text {
-        font-size: 13px;
-        line-height: 17px;
-    }
-}
-
-@media all and (max-width: 341px) { //height 733px
-    .letter-header {
-        font-size: 32px;
-        line-height: 40px;
-    }
-    
-    .letter-text {
-        font-size: 12px;
-        line-height: 16px;
-    }
-}
-
-@media all and (max-width: 318px) { //height 683px
+@media all and (max-width: 465px) { //height 801px 
     .letter {
-        margin-bottom: 250px;
+        width: 390px;
     }
-    
+
     .letter-header {
-        font-size: 29px;
-        line-height: 36px;
+        padding-top: 16px;
+        margin-left: 16px;
     }
 
     .letter-text {
-        font-size: 11px;
-        line-height: 14px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 16px;
     }
 }
 
-@media all and (max-width: 294px) {
+@media all and (max-width: 435px) { //height 750px
     .letter {
-        margin-bottom: 250px;
+        width: 344px;
+    }
+
+    .letter-header {
+        padding-top: 15px;
+        margin-left: 15px;
+    }
+
+    .letter-text {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media all and (max-width: 405px) { //height 698px
+    .letter {
+        width: 321px;
+    }
+
+    .letter-header {
+        padding-top: 14px;
+        margin-left: 14px;
+    }
+
+    .letter-text {
+        margin-left: 14px;
+        margin-right: 14px;
+        margin-bottom: 14px;
+    }
+}
+
+@media all and (max-width: 375px) { //height 646px
+    .letter {
+        width: 298px;
+    }
+
+    .letter-header {
+        padding-top: 13px;
+        margin-left: 13px;
+    }
+
+    .letter-text {
+        margin-left: 13px;
+        margin-right: 13px;
+        margin-bottom: 13px;
+    }
+}
+
+@media all and (max-width: 345px) { //height 594px 
+    .letter {
+        width: 275px;
+    }
+
+    .letter-header {
+        padding-top: 12px;
+        margin-left: 12px;
+    }
+
+    .letter-text {
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 12px;
+    }
+}
+
+@media all and (max-width: 315px) { //height 543px
+    .letter {
+        width: 252px;
+    }
+
+    .letter-header {
+        padding-top: 11px;
+        margin-left: 11px;
+    }
+
+    .letter-text {
+        margin-left: 11px;
+        margin-right: 11px;
+        margin-bottom: 11px;
     }
 }
