@@ -53,7 +53,7 @@ export const MainView = () => {
     let touchendX = 0
         
     function checkDirection() {
-      if (page < 4 && touchendX < touchstartX + 100) {
+      if (page < 4 && touchendX < touchstartX - 100) {
         setPage(page + 1)
       }
       if (page > 0 && touchendX > touchstartX + 100) {
