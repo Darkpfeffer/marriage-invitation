@@ -24,6 +24,8 @@ export const MainView = () => {
         setPage(page + 1)
     };
 
+    //event listeners for view changes
+
     useEffect(() => {
         document.addEventListener('keydown', keyIncrement)
         return () => document.removeEventListener('keydown', keyIncrement)
@@ -35,20 +37,52 @@ export const MainView = () => {
     }, [page])
     
     const keyIncrement = (e) => {
-
         if (page < 4 && (e.key === 'ArrowRight' || e.key === 'd')) {
             setPage(page + 1)
-            console.log(page)
         }
     }
 
     const keyDecrement = (e) => {
         if (page > 0 && (e.key === 'ArrowLeft' || e.key === 'a')) {
             setPage(page - 1)
-            console.log(page)
         }
     }
 
+    //on phone
+    let touchstartX = 0
+    let touchendX = 0
+        
+    function checkDirection() {
+      if (page < 4 && touchendX < touchstartX) {
+        setPage(page + 1)
+      }
+      if (page > 0 && touchendX > touchstartX) {
+        setPage(page - 1)
+      } 
+    }
+
+    function touchBeginning(e) {
+        touchstartX = e.changedTouches[0].screenX
+    }
+
+    function touchEnd(e) {
+        touchendX = e.changedTouches[0].screenX;
+        checkDirection();
+        touchstartX= 0;
+        touchendX= 0;
+
+    }
+
+    useEffect(() => {
+        document.addEventListener('touchstart', touchBeginning)
+        return() => document.removeEventListener('touchstart', touchBeginning)
+      }, [page]) 
+    
+    useEffect(() => {
+        document.addEventListener('touchend', touchEnd)
+        return() =>  document.removeEventListener('touchend', touchEnd)
+    })
+        
     return (
         <>
         { page > 0 && (
