@@ -30,20 +30,20 @@
 //desktop view
 @media all and (max-width: 1920px) { //height 912px 
     .additional-details {
-        margin-top: 2%;
+        margin-top: 2.5%;
     }
 }
 
 @media all and (max-width: 1880px) { //height 893px
     .additional-details {
-        margin-top: 1%;
+        margin-top: 2%;
     }
 }
 
 @media all and (max-width: 1850px) { //height 878px 
     .additional-details {
         width: 1356px;
-        margin-top: 2%;
+        margin-top: 3%;
         padding-top: 44px;
         padding-bottom: 21px;
     }
@@ -61,20 +61,20 @@
 
 @media all and (max-width: 1790px) { //height 850px 
     .additional-details {
-        margin-top: 1.25%;
+        margin-top: 2.5%;
     }
 }
 
 @media all and (max-width: 1740px) { //height 826px 
     .additional-details {
-        margin-top: 1%;
+        margin-top: 2%;
     }
 }
 
 @media all and (max-width: 1730px) { //height 821px 
     .additional-details {
         width: 1243px;
-        margin-top: 2%;
+        margin-top: 3%;
         padding-top: 40px;
         padding-bottom: 19px;
     }
@@ -92,7 +92,7 @@
 
 @media all and (max-width: 1670px) { //height 764px 
     .additional-details {
-        margin-top: 1%;
+        margin-top: 2.5%;
     }
 }
 
@@ -101,7 +101,7 @@
         width: 1129px;
         padding-top: 36px;
         padding-bottom: 17px;
-        margin-top: 2%;
+        margin-top: 3%;
     }
     
     .additional-header {
@@ -115,16 +115,9 @@
     }
 }
 
-@media all and (max-width: 1535px) { //height 693px 
+@media all and (max-width: 1535px) { //height 729px 
     .additional-details {
-        margin-top: 1%;
-    }
-}
-
-@media all and (max-width: 1495px) { //height 
-    .additional-details {
-        padding-top: 18px;
-        padding-bottom: 9px;
+        margin-top: 2%;
     }
 }
 
@@ -133,7 +126,7 @@
         width: 1017px;
         padding-top: 33px;
         padding-bottom: 15px;
-        margin-top: 2%;
+        margin-top: 3%;
     }
     
     .additional-header {
@@ -149,18 +142,16 @@
 
 @media all and (max-width: 1390px) { //height 660px 
     .additional-details {
-        margin-top: 1%;
-        padding-top: 16px;
-        padding-bottom: 1px;
+        margin-top: 2.5%;
     }
 }
 
 @media all and (max-width: 1320px) { //height 627px 
     .additional-details {
         width: 960px;
-        padding-top: 16px;
+        padding-top: 20px;
         padding-bottom: 1px;
-        margin-top: 2%;
+        margin-top: 3.5%;
     }
     
     .additional-header {
@@ -174,19 +165,12 @@
     }
 }
 
-@media all and (max-width: 1284px) { // height 609px 
-    .additional-details {
-        margin-top: 1%;
-        padding-top: 8px;
-    }
-}
-
 @media all and (max-width: 1248px) { // height 592px 
     .additional-details {
         width: 904px;
-        padding-top: 29px;
+        padding-top: 20px;
         padding-bottom: 1px;
-        margin-top: 3%;
+        margin-top: 4%;
     }
     
     .additional-header {
@@ -202,17 +186,12 @@
   
 }
 
-@media all and (max-width: 1219px) { // height 579px 
-    .additional-details {
-        padding-top: 14px;
-    }
-}
-
 @media all and (max-width: 1190px) { // height 565px 
     .additional-details {
         width: 847px;
-        padding-top: 27px;
+        padding-top: 20px;
         padding-bottom: 1px;
+        margin-top: 5%;
     }
     
     .additional-header {
@@ -223,21 +202,6 @@
     .additional-text {
         margin-left: 27px;
         margin-right: 27px;
-    }
-}
-
-@media all and (max-width: 1135px) { //height 539px 
-    .additional-details {
-        padding-top: 15px;
-        margin-top: 2%;
-    }
-    
-    .additional-header {
-        line-height: 30px;
-    }
-
-    .additional-text {
-        line-height: 18px;
     }
 }
 
@@ -246,7 +210,7 @@
         width: 790px;
         padding-top: 18px;
         padding-bottom: 1px;
-        margin-top: 2%;
+        margin-top: 2.5%;
     }
     
     .additional-header {
