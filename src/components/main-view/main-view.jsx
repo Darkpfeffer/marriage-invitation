@@ -22,8 +22,32 @@ export const MainView = () => {
 
     const increment = () => {
         setPage(page + 1)
+    };
+
+    useEffect(() => {
+        document.addEventListener('keydown', keyIncrement)
+        return () => document.removeEventListener('keydown', keyIncrement)
+    }, [page])
+
+    useEffect(() => {
+        document.addEventListener('keydown', keyDecrement)
+        return () => document.removeEventListener('keydown', keyDecrement)
+    }, [page])
+    
+    const keyIncrement = (e) => {
+
+        if (page < 4 && (e.key === 'ArrowRight' || e.key === 'd')) {
+            setPage(page + 1)
+            console.log(page)
+        }
     }
 
+    const keyDecrement = (e) => {
+        if (page > 0 && (e.key === 'ArrowLeft' || e.key === 'a')) {
+            setPage(page - 1)
+            console.log(page)
+        }
+    }
 
     return (
         <>
