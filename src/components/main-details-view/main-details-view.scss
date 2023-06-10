@@ -3,7 +3,7 @@
     width: 1156px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 280px;
+    margin-top: 230px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -86,14 +86,13 @@
 //media queries
 @media all and (max-width: 1920px) { //height 912px 
     .main-details {
-        margin-top: 15%;
+        margin-top: 13%;
     }
 }
 
 @media all and (max-width: 1850px) { //height 878px 
     .main-details {
         width: 1091px;
-        margin-top: 14.5%;
         padding-top: 48px;
         padding-bottom: 48px;
     }
@@ -670,7 +669,7 @@
 //tablet view
 @media all and (max-width: 1035px) { //height 1656px
     .main-details {
-        margin-top: 19%;
+        margin-top: 15%;
         width: 519px;
     }
 
@@ -1032,13 +1031,13 @@
 
 @media all and (max-width: 725px) { //height 1000px
     .main-details {
-        margin-top: 14%;
+        margin-top: 12%;
     }
 }
 
 @media all and (max-width: 700px) { //height 965px 
     .main-details {
-        margin-top: 12%;
+        margin-top: 8%;
         width: 358px;
     }
 
@@ -1181,6 +1180,7 @@
 
 @media all and (max-width: 600px) { //height 827px 
     .main-details {
+        margin-top: 6%;
         width: 303px;
     }
 
@@ -1247,12 +1247,6 @@
     
     #from-where {
         width: 115px;
-    }
-}
-
-@media all and (max-width: 575px) { //height 793px
-    .main-details {
-        margin-top: 9%;
     }
 }
 
@@ -1330,7 +1324,7 @@
 //Mobile view
 @media all and (max-width: 500px) { //height 862px 
     .main-details {
-        margin-top: 28%;
+        margin-top: 12%;
         width: 303px;
     }
 
@@ -1402,6 +1396,7 @@
 
 @media all and (max-width: 465px) { //height 801px 
     .main-details {
+        margin-top: 10%;
         width: 284px;
     }
 
@@ -1616,6 +1611,7 @@
 @media all and (max-width: 375px) { //height 646px 
     .main-details {
         width: 231px;
+        margin-top: 8%;
     }
 
     .main-details__date {
@@ -1686,6 +1682,7 @@
 
 @media all and (max-width: 345px) { //height 594px 
     .main-details {
+        margin-top: 4%;
         width: 214px;
     }
 
