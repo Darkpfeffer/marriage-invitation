@@ -10,6 +10,7 @@ import { LetterView } from "../letter-view/letter-view"
 import { MainDetailsView } from "../main-details-view/main-details-view"
 import { AdditionalDetailsView } from "../additional-details-view/additional-details-view"
 import { AboutUsView } from "../about-us-view/about-us-view"
+import { SliderDots } from "../slider-dots/slider-dots"
 
 export const MainView = () => {
     //set states
@@ -85,40 +86,42 @@ export const MainView = () => {
         
     return (
         <>
-        { page > 0 && (
-            <NaviBackArrow 
-                onClick={ decrement }
-                page={ page }
-            />
-        )}
-
-        <div className="page-content">
-            { page === 0 && (
-                <FrontPage />
-            )} 
+            <SliderDots position={ page }/>
             
-            { page === 1 && (
-                <LetterView />
+            { page > 0 && (
+                <NaviBackArrow 
+                    onClick={ decrement }
+                    page={ page }
+                />
             )}
 
-            { page === 2 && (
-                <MainDetailsView />
-            )}
+            <div className="page-content">
+                { page === 0 && (
+                    <FrontPage />
+                )} 
+                
+                { page === 1 && (
+                    <LetterView />
+                )}
 
-            { page === 3 && (
-                <AdditionalDetailsView />
-            )}
+                { page === 2 && (
+                    <MainDetailsView />
+                )}
 
-            { page === 4 && (
-                <AboutUsView />
-            )}
-        </div>
+                { page === 3 && (
+                    <AdditionalDetailsView />
+                )}
 
-        {page < 4 && (
-            <NaviNextArrow 
-                onClick={ increment }
-            />
-        )}
+                { page === 4 && (
+                    <AboutUsView />
+                )}
+            </div>
+
+            {page < 4 && (
+                <NaviNextArrow 
+                    onClick={ increment }
+                />
+            )}
         </>
     )
 }

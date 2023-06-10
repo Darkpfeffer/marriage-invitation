@@ -2,7 +2,7 @@
 import React from "react"
 
 export const MusicButton = () => {
-    const audio = new Audio()
+    const audio = new Audio("http://localhost:8080/chapel-of-love.mp3")
     console.log(audio)
     const audioPlay = (event) => {
         event.preventDefault()
