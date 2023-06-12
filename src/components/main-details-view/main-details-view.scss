@@ -666,6 +666,28 @@
     }
 }
 
+//for 4k screens
+//4k with 50% zoom
+@media all and (max-width: 1710px) and (min-height: 938px) {
+    .main-details {
+        margin-top: 16%;
+    }
+}
+
+//4k with 25% zoom
+@media all and (max-width: 2048px) and (min-height: 961px) {
+    .main-details {
+        margin-top: 17%;
+    }
+}
+
+//4k without zoom
+@media all and (min-height: 1153px) {
+    .main-details{
+        margin-top: 19%;
+    }
+}
+
 //tablet view
 @media all and (max-width: 1035px) { //height 1656px
     .main-details {

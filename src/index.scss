@@ -71,13 +71,195 @@ p {
 
 //background media query setings
 
-
-@media all and (max-width: 1405px) {
+//desktip view
+//1080p with 50% zoom
+@media all and (max-width: 1065px) and (min-height: 605px) {
     body {
-        background-size: 1405px;
+        background-size: 1065px;
+    }
+}
+//1080p with 25% zoom
+@media all and (max-width: 1245px) and (min-height: 729px) {
+    body {
+        background-size: 1245px;
     }
 }
 
+//1080p resolution without zoom 
+@media all and (max-width: 1575px) and (min-height: 912px) {
+    body {
+        background-size: 1575px;
+    }
+}
+
+@media all and (max-width: 1310px) and (min-height: 912px) {
+    body {
+        background-image: url("img/Background-mobile.jpg");
+        background-size: 1310px;
+    }
+}
+
+@media all and (max-width: 1210px) and (min-height: 912px) {
+    body {
+        background-size: 1210px;
+    }
+}
+
+@media all and (max-width: 1110px) and (min-height: 912px) {
+    body {
+        background-size: 1110px;
+    }
+}
+
+//for 4k resolution monitors
+
+//4k with 50% zoom
+
+@media all and (max-width: 1665px) and (min-height: 951px) {
+    body {
+        background-size: 1665px;
+    }
+}
+
+@media all and (max-width: 1310px) and (min-height: 951px) {
+    body {
+        background-image: url("img/Background-mobile.jpg");
+        background-size: 1310px;
+    }
+}
+
+@media all and (max-width: 1210px) and (min-height: 951px) {
+    body {
+        background-size: 1210px;
+    }
+}
+
+@media all and (max-width: 1110px) and (min-height: 951px) {
+    body {
+        background-size: 1110px;
+    }
+}
+
+//4k with 25% zoom
+
+@media all and (max-width: 1938px) and (min-height: 961px) {
+    body {
+        background-size: 1938px;
+    }
+}
+
+@media all and (max-width: 1610px) and (min-height: 961px) {
+    body {
+        background-image: url("img/Background-mobile.jpg");
+        background-size: 1610px;
+    }
+}
+
+@media all and (max-width: 1510px) and (min-height: 961px) {
+    body {
+        background-size: 1510px;
+    }
+}
+
+@media all and (max-width: 1410px) and (min-height: 961px) {
+    body {
+        background-size: 1410px;
+    }
+}
+
+@media all and (max-width: 1310px) and (min-height: 961px) {
+    body {
+        background-size: 1310px;
+    }
+}
+
+@media all and (max-width: 1210px) and (min-height: 961px) {
+    body {
+        background-size: 1210px;
+    }
+}
+
+@media all and (max-width: 1110px) and (min-height: 961px) {
+    body {
+        background-size: 1110px;
+    }
+}
+
+//4k without zoom
+@media all and (max-width: 2390px) and (min-height: 1153px) {
+    body {
+        background-size: 2390px;
+    }
+}
+
+@media all and (max-width: 2110px) and (min-height: 1153px) {
+    body {
+        background-image: url("img/Background-mobile.jpg");
+        background-size: 2110px;
+    }
+}
+
+@media all and (max-width: 2010px) and (min-height: 1153px) {
+    body {
+        background-size: 2010px;
+    }
+}
+
+@media all and (max-width: 1910px) and (min-height: 1153px) {
+    body {
+        background-size: 1910px;
+    }
+}
+
+@media all and (max-width: 1810px) and (min-height: 1153px) {
+    body {
+        background-size: 1810px;
+    }
+}
+
+@media all and (max-width: 1710px) and (min-height: 1153px) {
+    body {
+        background-size: 1710px;
+    }
+}
+
+@media all and (max-width: 1610px) and (min-height: 1153px) {
+    body {
+        background-size: 1610px;
+    }
+}
+
+@media all and (max-width: 1510px) and (min-height: 1153px) {
+    body {
+        background-size: 1510px;
+    }
+}
+
+@media all and (max-width: 1410px) and (min-height: 1153px) {
+    body {
+        background-size: 1410px;
+    }
+}
+
+@media all and (max-width: 1310px) and (min-height: 1153px) {
+    body {
+        background-size: 1310px;
+    }
+}
+
+@media all and (max-width: 1210px) and (min-height: 1153px) {
+    body {
+        background-size: 1210px;
+    }
+}
+
+@media all and (max-width: 1110px) and (min-height: 1153px) {
+    body {
+        background-size: 1110px;
+    }
+}
+
+//tablet view
 @media all and (max-width: 1035px) {
     body {  
         background-image: url("img/Background-mobile.jpg");
@@ -90,7 +272,7 @@ p {
         background-size: 800px;
     }
 }
-
+//mobile view
 @media all and (max-width: 450px) {
     body {
         background-size: 620px;

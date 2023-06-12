@@ -3,7 +3,7 @@
     width: 1413px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 16px;
+    margin-top: 21px;
     padding-top: 46px;
     padding-bottom: 22px;
 }
@@ -216,6 +216,28 @@
     .additional-text {
         margin-left: 25px;
         margin-right: 25px;
+    }
+}
+
+//for 4k screens
+//4k with 50% zoom
+@media all and (max-width: 1710px) and (min-height: 938px) {
+    .additional-details {
+        margin-top: 6%;
+    }
+}
+
+//4k with 25% zoom
+@media all and (max-width: 2048px) and (min-height: 961px) {
+    .additional-details {
+        margin-top: 7%;
+    }
+}
+
+//4k without zoom
+@media all and (min-height: 1153px) {
+    .additional-details {
+        margin-top: 11%;
     }
 }
 
