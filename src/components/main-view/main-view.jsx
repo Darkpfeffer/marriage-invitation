@@ -86,6 +86,7 @@ export const MainView = () => {
         
     return (
         <>
+            <MusicButton />
             <SliderDots position={ page }/>
             
             { page > 0 && (

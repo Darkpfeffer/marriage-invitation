@@ -2,21 +2,26 @@
 import React from "react"
 
 export const MusicButton = () => {
-    const audio = new Audio("http://localhost:8080/chapel-of-love.mp3")
-    console.log(audio)
-    const audioPlay = (event) => {
+    const audio = new Audio("https://darkpfeffer-music-player.onrender.com/chapel-of-love.mp3")
+    let isPlaying = false;
+    audio.volume = 1;
+
+    const audioToggle = (event) => {
         event.preventDefault()
 
-        var promise= audio.play()
-        if (promise) {
-            promise.catch(function(error) { console.error(error); });
-        }
+        if(isPlaying) {
+            audio.pause();
+            isPlaying = false;
+        } else {
+            audio.play();
+            isPlaying = true;
+        } 
     }
 
     return (
         <>
         <button
-            onClick={audioPlay}
+            onClick={audioToggle}
         >
         Play
         </button>
