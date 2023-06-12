@@ -46,8 +46,7 @@ p {
 .navi-next, .navi-back {
     display: flex;
     position: fixed;
-    width: 100px;
-    height: 100px;
+    width: 90px;
     background-color: rgba(0, 0, 0, 0);
     border: 0px;
     bottom: 47%;
@@ -793,13 +792,17 @@ p {
 
 @media all and (max-width: 1730px) {
     .navi-back {
-        left: 45px;
+        left: 35px;
     }
 }
 
 @media all and (max-width: 1485px) {
+    .navi-next, .navi-back {
+        width: 75px;
+    }
+    
     .navi-next {
-        right: 20px;
+        right: 40px;
     }
 
     .navi-back {
@@ -811,37 +814,31 @@ p {
     }
 }
 
-@media all and (max-width: 1330px) {
-    .navi-next {
-        right: 10px;
-    }
-
-    .navi-back {
-        left: 35px
-    }
-}
-
 @media all and (max-width: 1250px) {
+    .navi-next, .navi-back {
+        width: 60px;
+    }
+    
     .navi-next {
-        right: -15px;
+        right: 26px;
     }
 
     .navi-back {
-        left: 20px
+        left: 26px
     }
 
     .navi-back__img, .navi-next__img {
         width: 60px;
     }
-
-    .navi-back, .navi-next {
-        bottom: 45%;
-    }
 }
 
 @media all and (max-width: 1080px) {
     .navi-next {
-        right: -20px;
+        right: 18px;
+    }
+
+    .navi-back {
+        left: 18px
     }
 }
 
