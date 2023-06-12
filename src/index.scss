@@ -263,6 +263,7 @@ p {
 @media all and (max-width: 1035px) { //height 1480px
     body {  
         background-image: url("img/Background-mobile.jpg");
+        background-position: top 0px left 0px;
         background-size: 1055px;
     }
 }
@@ -298,9 +299,39 @@ p {
 }
 
 //mobile view
-@media all and (max-width: 450px) {
+@media all and (max-width: 500px) { //height 961px
     body {
-        background-size: 620px;
+        background-size: 645px;
+    }
+}
+
+@media all and (max-width: 450px) { //height 865px
+    body {
+        background-size: 580px;
+    }
+}
+
+@media all and (max-width: 400px) { //height 770px
+    body {
+        background-size: 515px;
+    }
+}
+
+@media all and (max-width: 350px) { //height 674px
+    body {
+        background-size: 455px;
+    }
+}
+
+@media all and (max-width: 300px) { //height 577px
+    body {
+        background-size: 390px;
+    }
+}
+
+@media all and (max-width: 250px) { //height 481px
+    body {
+        background-size: 330px;
     }
 }
 
