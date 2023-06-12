@@ -260,18 +260,43 @@ p {
 }
 
 //tablet view
-@media all and (max-width: 1035px) {
+@media all and (max-width: 1035px) { //height 1480px
     body {  
         background-image: url("img/Background-mobile.jpg");
-        background-size: 1200px;
+        background-size: 1055px;
     }
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 935px) { //height 1335px
     body {
-        background-size: 800px;
+        background-size: 960px;
     }
 }
+
+@media all and (max-width: 835px) { //height 1193px
+    body {
+        background-size: 865px;
+    }
+}
+
+@media all and (max-width: 735px) { //height 1050px
+    body {
+        background-size: 770px;
+    }
+}
+
+@media all and (max-width: 635px) { //height 908px
+    body {
+        background-size: 675px;
+    }
+}
+
+@media all and (max-width: 535px) { //height 765px
+    body {
+        background-size: 580px;
+    }
+}
+
 //mobile view
 @media all and (max-width: 450px) {
     body {
@@ -497,7 +522,7 @@ p {
 }
 
 //tablet view
-@media all and (max-width: 1035px) { //height 1496px
+@media all and (max-width: 1035px) { //height 1480px
     h1, .front-page {
         font-size: 290px;
         line-height: 363px;
