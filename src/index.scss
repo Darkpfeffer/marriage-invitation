@@ -49,7 +49,6 @@ p {
     width: 90px;
     background-color: rgba(0, 0, 0, 0);
     border: 0px;
-    border-radius: 50%;
     bottom: 47%;
 }
 
@@ -1084,7 +1083,6 @@ p {
 //tablet and mobile view
 @media all and (max-width: 1035px) { //height 1496px
     .navi-back, .navi-next {
-        border-radius: 0%;
         height: 100%;
         bottom: 0;
     }
