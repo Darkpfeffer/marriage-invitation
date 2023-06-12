@@ -8,7 +8,7 @@
     margin-right: auto;
     width: 140px;
     margin-top: 21px;
-    filter: drop-shadow(0px 0px 9px #000B4B);
+    filter: drop-shadow(0px 0px 50px #000B4B);
 }
 
 //media queries
@@ -74,6 +74,7 @@
     .slider-dots {
         width: 162px;
         margin-top: 24px;
+        filter: drop-shadow(0px 0px 30px #000B4B);
     }
 }
 

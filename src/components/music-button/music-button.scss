@@ -1,0 +1,231 @@
+.music-button {
+    background-color: rgba(250, 250, 250, 0);
+    border: none;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    z-index: 10;
+}
+
+.music-img {
+    width: 90px;
+}
+
+//media queries
+//device view
+@media all and (max-width: 1850px) { //height 878px
+    .music-button {
+        top: 48px;
+        right: 35px;
+    }
+}
+
+@media all and (max-width: 1730px) { //height 821px
+    .music-button {
+        top: 44px;
+    }
+}
+
+@media all and (max-width: 1610px) { //height 764px
+    .music-button {
+        top: 40px;
+    }
+}
+
+@media all and (max-width: 1485px) { //height 705px
+    .music-button {
+        top: 36px;
+        right: 40px;
+        width: 75px;
+    }
+
+    .music-img {
+        width: 75px;
+    }
+}
+
+@media all and (max-width: 1330px) { //height 627px 
+    .music-button {
+        top: 34px;
+        right: 38px;
+    }
+}
+
+@media all and (max-width: 1250px) { // height 592px 
+    .music-button {
+        top: 34px;
+        width: 60px;
+        right: 26px;
+    }
+
+    .music-img {
+        width: 60px;
+    }
+}
+
+@media all and (max-width: 1190px) { // height 565px 
+    .music-button {
+        top: 30px;
+    }
+}
+
+@media all and (max-width: 1080px) { //height 513px 
+    .music-button {
+        top: 28px;
+        right: 18px;
+    }
+}
+
+//tablet view
+@media all and (max-width: 1035px) { //height 1496px 
+    .music-button {
+        top: 29px;
+        width: 90px;
+    }
+
+    .music-img {
+        width: 90px;
+    }
+}
+
+@media all and (max-width: 950px) { //height 1310px 
+    .music-button {
+        top: 25px;
+        right: 15px;
+        width: 75px;
+    }
+
+    .music-img {
+        width: 75px;
+    }
+}
+
+@media all and (max-width: 875px) { //height 1206px 
+    .music-button {
+        top: 22px;
+        width: 70px;
+    }
+
+    .music-img {
+        width: 70px;
+    }
+}
+
+@media all and (max-width: 775px) { //height 1068px 
+    .music-button {
+        top: 21px;
+        width: 60px;
+        right: 5px;
+    }
+
+    .music-img {
+        width: 60px;
+    }
+}
+
+@media all and (max-width: 700px) { //height 965px 
+    .music-button {
+        top: 20px;
+        width: 50px;
+    }
+
+    .music-img {
+        width: 50px;
+    }
+}
+
+@media all and (max-width: 600px) { //height 827px 
+    .music-button {
+        top: 17px;
+        width: 40px;
+    }
+
+    .music-img {
+        width: 40px;
+    }
+}
+
+//mobile view
+@media all and (max-width: 500px) { //height 862px 
+    .music-button {
+        top: 15px;
+        right: 30px;
+        width: 56px;
+    }
+
+    .music-img {
+        width: 56px;
+    }
+} 
+
+@media all and (max-width: 465px) { //height 801px 
+    .music-button {
+        top: 14px;
+        right: 28px;
+        width: 52px;
+    }
+
+    .music-img {
+        width: 52px;
+    }
+}
+
+@media all and (max-width: 435px) { //height 750px 
+    .music-button {
+        top: 13px;
+        right: 26px;
+        width: 49px;
+    }
+
+    .music-img {
+        width: 49px;
+    }
+}
+
+@media all and (max-width: 405px) { //height 698px 
+    .music-button {
+        top: 12px;
+        right: 24px;
+        width: 46px;
+    }
+
+    .music-img {
+        width: 46px;
+    }
+}
+
+@media all and (max-width: 375px) { //height 646px 
+    .music-button {
+        top: 11px;
+        right: 22px;
+        width: 42px;
+    }
+
+    .music-img {
+        width: 42px;
+    }
+}
+
+@media all and (max-width: 345px) { //height 594px 
+    .music-button {
+        top: 10px;
+        right: 21px;
+        width: 39px;
+    }
+
+    .music-img {
+        width: 39px;
+    }
+}
+
+@media all and (max-width: 315px) { //height 543px 
+    .music-button {
+        top: 9px;
+        right: 19px;
+        width: 36px;
+    }
+
+    .music-img {
+        width: 36px;
+    }
+}
