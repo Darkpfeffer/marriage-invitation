@@ -1,8 +1,11 @@
 import "./letter-view.scss"
 
+import Hamsa from "../../img/hamsa.jpg"
+
 export const LetterView = () => {
     return (
         <>
+            <img src={Hamsa} className='hamsa-background'/>
             <div className="letter desktop tablet">
                 <h2 className="letter-header">
                     Kedves Családunk <br className="mobile"></br>

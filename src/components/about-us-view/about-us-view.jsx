@@ -1,9 +1,12 @@
 import WikiImage from "../../img/Wiki.png"
 
+import Hamsa from "../../img/hamsa.jpg"
+
 import "./about-us-view.scss"
 export const AboutUsView = () => {
     return (
         <>
+            <img src={Hamsa} className='hamsa-background'/>
             <div className="about-us-content desktop">
                 <img src={WikiImage} rel="wiki image" className="about-us__img"></img>
                 <h3 className="about-us__title"><span className="about-us__title--capital">K</span>incső és Zoltán története</h3>

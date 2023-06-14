@@ -1,8 +1,11 @@
 import "./additional-details-view.scss"
 
+import Hamsa from "../../img/hamsa.jpg"
+
 export const AdditionalDetailsView = () => {
     return (
         <div className="additional-details">
+            <img src={Hamsa} className='hamsa-background'/>
             <h4 className="additional-header">Lesz - Nem lesz</h4>
             <p className="additional-text">
                 Nem lesz: papíralapú meghívó, rizsszórás, <br className="mobile"/>

@@ -1,8 +1,11 @@
 import "./main-details-view.scss"
 
+import Hamsa from "../../img/hamsa.jpg"
+
 export const MainDetailsView = () => {
     return (
         <div className="main-details">
+            <img src={Hamsa} className='hamsa-background'/>
             <div className="main-details__date">
                 <h2 className="main-details__header" id="date-header">Dátum</h2>
                 <div className="main-details__content">
