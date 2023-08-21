@@ -1,6 +1,6 @@
 //import
 import { useState, useEffect } from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate, Link } from "react-router-dom";
 
 //import self made components
 import { FrontPage } from "../first-page/front-page"
@@ -130,6 +130,11 @@ export const MainView = () => {
                                     onClick={ increment }
                                 />
                             )}
+
+                            
+                            <Link to={`/case-study`}>
+                                .
+                            </Link>
                         </>
                     }
                 >
