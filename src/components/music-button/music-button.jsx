@@ -10,7 +10,7 @@ import "./music-button.scss"
 
 //audio player
 const useAudio = () => {
-    const [audio] = useState(new Audio("https://darkpfeffer-music-player.onrender.com/chapel-of-love.mp3"));
+    const [audio] = useState(new Audio("/audio/chapel-of-love.mp3"));
     audio.volume = 1;
     const [playing, setPlaying] = useState(false);
 
