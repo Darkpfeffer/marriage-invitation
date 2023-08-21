@@ -59,7 +59,18 @@ export const CaseStudy = () => {
 
             <h4 className="case-study__content--header">Creating the view-changing function</h4>
 
-            <a href="../../img/view-changing.jpg" target="_blank"><img src={ViewChanging}/></a>
+            <a 
+                href="/img/case-study/view-changing.jpg" 
+                rel="Showing the second view of the website"
+                target="_blank"
+            >
+                <img 
+                    src={ViewChanging} 
+                    alt="Showing the second view of the website"
+                    className="case-study__img"
+                />
+            </a>
+
 
             <p>
             This is one of the most crucial functions the app must have. First I created the arrow buttons, which 
@@ -80,6 +91,18 @@ export const CaseStudy = () => {
                 and style them
             </h4>
 
+            <a 
+                href="/img/case-study/Kincso-and-Zoltan.png"
+                rel="image of the opening page"
+                target="_blank"
+            >
+                <img
+                    src="/img/case-study/Kincso-and-Zoltan.png"
+                    alt="image of the opening page"
+                    className="case-study__img"
+                />
+            </a>
+
             <p>
                 Without this step, the website wouldn’t be useful. It contains all the information about the 
                 wedding we wanted to display to the visitors of the page. I used the UI design provided by my 
@@ -95,6 +118,17 @@ export const CaseStudy = () => {
                 set the flex-direction as well, but I approached with another method. I added width to the elements 
                 and set the margin to auto. It was a decent solution, but a time-consuming one.
             </p>
+            <a 
+                href="/img/case-study/Second.PNG"
+                rel="image of the Figma UI design"
+                target="_blank"
+            >
+                <img
+                    src="/img/case-study/Second.PNG"
+                    alt="image of the Figma UI design"
+                    className="case-study__img"
+                />
+            </a>
             <p>
                 Second, I added UI elements and placed them in the location they should be, and styled them 
                 accordingly. I did this because I never worked with a UI design before, and I wanted to see how 
@@ -114,6 +148,19 @@ export const CaseStudy = () => {
                 resolutions after zooming. That way, I had to add the height of the browser size, otherwise the 
                 browser would change the view differently than I intended.
             </p>
+
+            <a 
+                href="/img/case-study/Scale-and-layout.PNG"
+                rel="Scale and layout settings"
+                target="_blank"
+            >
+                <img
+                    src="/img/case-study/Scale-and-layout.PNG"
+                    alt="Scale and layout settings"
+                    className="case-study__img scale-img"
+                />
+            </a>
+
             <p>
                 For tablets and mobile screens, I searched for screen sizes and calculated an average screen size 
                 for tablets and phones, and I used them to create the views’ styling and positioning accordingly. 
@@ -126,6 +173,18 @@ export const CaseStudy = () => {
             </p>
 
             <h4 className="case-study__content--header">Creating a simple backend</h4>
+
+            <a 
+                href="/img/case-study/Backend.PNG"
+                rel="Scale and layout settings"
+                target="_blank"
+            >
+                <img
+                    src="/img/case-study/Backend.PNG"
+                    alt="Scale and layout settings"
+                    className="case-study__img scale-img"
+                />
+            </a>
 
             <p>
                 First I wanted to play music using React. I checked for libraries that support playing audio, but 
