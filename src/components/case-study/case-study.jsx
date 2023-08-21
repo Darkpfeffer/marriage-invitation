@@ -16,7 +16,7 @@ export const CaseStudy = () => {
                     className="case-study__img"
                 />
             </a>
-            
+
             <h3 className="case-study__title">Wedding Invitation Case Study</h3>
 
             <h4 className="case-study__content--header">Overview</h4>
@@ -195,6 +195,12 @@ export const CaseStudy = () => {
                 in a longer time. That means, it needs about ten to fifteen seconds before the website finally 
                 starts playing the song. But it has a greater advantage, I don’t need to host the server on my 
                 computer, so it will be available even when I turn off my PC.
+            </p>
+            <p>
+                P.S.<br />
+                I was able to create a public folder with the help of the react-scripts library. I had to move the 
+                index.html of the website and modify its script accordingly. That way I don’t need to create a 
+                backend to host the audio file.
             </p>
 
             <h4 className="case-study__content--header">Summary</h4>
