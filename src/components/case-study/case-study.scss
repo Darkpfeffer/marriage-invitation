@@ -4,7 +4,7 @@ p {
     margin-left: 50px;
 }
 
-.about-us-content {
+.case-study-content {
     background-color: rgba(250, 250, 250, 0.85);
     width: 1500px;
     margin-left: auto;
@@ -15,44 +15,18 @@ p {
     margin-bottom: 120px;
 }
 
-.about-us__img {
-    width: 195px;
-    float: left;
+.case-study__title {
+    display: flex;
+    justify-content: center;
     margin-left: 50px;
-    margin-right: 20px;
-}
-
-.about-us__title {
-    margin-left: 265px;
     margin-right: 50px;
     margin-bottom: 20px;
     margin-top: 50px;
     border-bottom: 2px solid rgba(0, 11, 75, 0.5);
 }
 
-.about-us__title--capital {
-    letter-spacing: 0.05em;
-}
-
-.about-us__year {
-    font-family: 'Great Vibes';
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 25px;
-}
-
-.about-us__quote {
-    margin: 100px auto;
-    width: 844px;
-    
-}
-
-.about-us__quote--capital {
-    font-size: 75px;
-    line-height: 65px;
-    float: left;
-    margin-right: 10px;
-    margin-left: 5px;
+.case-study__content--header {
+    margin-left: 50px;
 }
 
 h4 {
@@ -67,6 +41,18 @@ h4 {
     display: none;
 }
 
+.margin-one {
+    margin-left: 50px;
+}
+
+.margin-two {
+    margin-left: 75px;
+}
+
+.margin-three {
+    margin-left: 100px;
+}
+
 //media queries
 //desktop view
 @media all and (max-width: 1850px) { //height 878px
@@ -76,7 +62,7 @@ h4 {
         margin-left: 48px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 1440px;
         padding-top: 19px;
         padding-bottom: 33px;
@@ -84,36 +70,28 @@ h4 {
         margin-bottom: 115px;
     }
     
-    .about-us__img {
-        width: 187px;
+    .case-study__title {
         margin-left: 48px;
-        margin-right: 19px;
-    }
-    
-    .about-us__title {
-        margin-left: 254px;
         margin-right: 48px;
         margin-bottom: 19px;
         margin-top: 48px;
         border-bottom: 2px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 28px;
-        line-height: 24px;
+
+    .case-study__content--header {
+        margin-left: 48px;
+    }
+
+    .margin-one {
+        margin-left: 48px;
     }
     
-    .about-us__quote {
-        margin: 96px auto;
-        width: 810px;
-        
+    .margin-two {
+        margin-left: 72px;
     }
     
-    .about-us__quote--capital {
-        font-size: 72px;
-        line-height: 62px;
-        margin-right: 9px;
-        margin-left: 5px;
+    .margin-three {
+        margin-left: 96px;
     }
     
     h4 {
@@ -128,7 +106,7 @@ h4 {
         margin-left: 44px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 1320px;
         padding-top: 17px;
         padding-bottom: 30px;
@@ -136,36 +114,28 @@ h4 {
         margin-bottom: 105px;
     }
     
-    .about-us__img {
-        width: 171px;
+    .case-study__title {
         margin-left: 44px;
-        margin-right: 17px;
-    }
-    
-    .about-us__title {
-        margin-left: 233px;
         margin-right: 44px;
         margin-bottom: 17px;
         margin-top: 44px;
         border-bottom: 2px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 26px;
-        line-height: 22px;
+
+    .case-study__content--header {
+        margin-left: 44px;
+    }
+
+    .margin-one {
+        margin-left: 44px;
     }
     
-    .about-us__quote {
-        margin: 88px auto;
-        width: 742px;
-        
+    .margin-two {
+        margin-left: 66px;
     }
     
-    .about-us__quote--capital {
-        font-size: 66px;
-        line-height: 57px;
-        margin-right: 8px;
-        margin-left: 4px;
+    .margin-three {
+        margin-left: 88px;
     }
     
     h4 {
@@ -180,7 +150,7 @@ h4 {
         margin-left: 40px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 1200px;
         padding-top: 16px;
         padding-bottom: 28px;
@@ -188,36 +158,28 @@ h4 {
         margin-bottom: 96px;
     }
     
-    .about-us__img {
-        width: 156px;
+    .case-study__title {
         margin-left: 40px;
-        margin-right: 16px;
-    }
-    
-    .about-us__title {
-        margin-left: 212px;
         margin-right: 40px;
         margin-bottom: 16px;
         margin-top: 40px;
         border-bottom: 2px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 24px;
-        line-height: 20px;
+
+    .case-study__content--header {
+        margin-left: 40px;
+    }
+
+    .margin-one {
+        margin-left: 40px;
     }
     
-    .about-us__quote {
-        margin: 80px auto;
-        width: 675px;
-        
+    .margin-two {
+        margin-left: 60px;
     }
     
-    .about-us__quote--capital {
-        font-size: 60px;
-        line-height: 52px;
-        margin-right: 8px;
-        margin-left: 4px;
+    .margin-three {
+        margin-left: 80px;
     }
     
     h4 {
@@ -232,7 +194,7 @@ h4 {
         margin-left: 36px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 1080px;
         padding-top: 14px;
         padding-bottom: 25px;
@@ -240,36 +202,28 @@ h4 {
         margin-bottom: 86px;
     }
     
-    .about-us__img {
-        width: 140px;
+    .case-study__title {
         margin-left: 36px;
-        margin-right: 14px;
-    }
-    
-    .about-us__title {
-        margin-left: 190px;
         margin-right: 36px;
         margin-bottom: 14px;
         margin-top: 36px;
         border-bottom: 2px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 21px;
-        line-height: 18px;
+
+    .case-study__content--header {
+        margin-left: 36px;
+    }
+
+    .margin-one {
+        margin-left: 36px;
     }
     
-    .about-us__quote {
-        margin: 72px auto;
-        width: 607px;
-        
+    .margin-two {
+        margin-left: 54px;
     }
     
-    .about-us__quote--capital {
-        font-size: 54px;
-        line-height: 46px;
-        margin-right: 7px;
-        margin-left: 3px;
+    .margin-three {
+        margin-left: 72px;
     }
     
     h4 {
@@ -284,7 +238,7 @@ h4 {
         margin-left: 34px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 1020px;
         padding-top: 13px;
         padding-bottom: 23px;
@@ -292,36 +246,28 @@ h4 {
         margin-bottom: 81px;
     }
     
-    .about-us__img {
-        width: 132px;
+    .case-study__title {
         margin-left: 34px;
-        margin-right: 13px;
-    }
-    
-    .about-us__title {
-        margin-left: 180px;
         margin-right: 34px;
         margin-bottom: 13px;
         margin-top: 34px;
         border-bottom: 2px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 20px;
-        line-height: 17px;
+
+    .case-study__content--header {
+        margin-left: 34px;
+    }
+
+    .margin-one {
+        margin-left: 34px;
     }
     
-    .about-us__quote {
-        margin: 68px auto;
-        width: 573px;
-        
+    .margin-two {
+        margin-left: 51px;
     }
     
-    .about-us__quote--capital {
-        font-size: 51px;
-        line-height: 44px;
-        margin-right: 6px;
-        margin-left: 3px;
+    .margin-three {
+        margin-left: 68px;
     }
     
     h4 {
@@ -336,7 +282,7 @@ h4 {
         margin-left: 32px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 960px;
         padding-top: 12px;
         padding-bottom: 22px;
@@ -344,36 +290,28 @@ h4 {
         margin-bottom: 76px;
     }
     
-    .about-us__img {
-        width: 124px;
+    .case-study__title {
         margin-left: 32px;
-        margin-right: 12px;
-    }
-    
-    .about-us__title {
-        margin-left: 169px;
         margin-right: 32px;
         margin-bottom: 12px;
         margin-top: 32px;
         border-bottom: 2px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 19px;
-        line-height: 16px;
+
+    .case-study__content--header {
+        margin-left: 32px;
+    }
+
+    .margin-one {
+        margin-left: 32px;
     }
     
-    .about-us__quote {
-        margin: 64px auto;
-        width: 540px;
-        
+    .margin-two {
+        margin-left: 48px;
     }
     
-    .about-us__quote--capital {
-        font-size: 48px;
-        line-height: 41px;
-        margin-right: 6px;
-        margin-left: 3px;
+    .margin-three {
+        margin-left: 64px;
     }
     
     h4 {
@@ -388,7 +326,7 @@ h4 {
         margin-left: 30px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 900px;
         padding-top: 12px;
         padding-bottom: 21px;
@@ -396,36 +334,28 @@ h4 {
         margin-bottom: 72px;
     }
     
-    .about-us__img {
-        width: 117px;
+    .case-study__title {
         margin-left: 30px;
-        margin-right: 12px;
-    }
-    
-    .about-us__title {
-        margin-left: 159px;
         margin-right: 30px;
         margin-bottom: 12px;
         margin-top: 30px;
         border-bottom: 2px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 18px;
-        line-height: 15px;
+
+    .case-study__content--header {
+        margin-left: 30px;
+    }
+
+    .margin-one {
+        margin-left: 30px;
     }
     
-    .about-us__quote {
-        margin: 60px auto;
-        width: 506px;
-        
+    .margin-two {
+        margin-left: 45px;
     }
     
-    .about-us__quote--capital {
-        font-size: 45px;
-        line-height: 39px;
-        margin-right: 6px;
-        margin-left: 3px;
+    .margin-three {
+        margin-left: 60px;
     }
     
     h4 {
@@ -440,7 +370,7 @@ h4 {
         margin-left: 28px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 840px;
         padding-top: 11px;
         padding-bottom: 19px;
@@ -448,36 +378,28 @@ h4 {
         margin-bottom: 67px;
     }
     
-    .about-us__img {
-        width: 109px;
+    .case-study__title {
         margin-left: 28px;
-        margin-right: 11px;
-    }
-    
-    .about-us__title {
-        margin-left: 148px;
         margin-right: 28px;
         margin-bottom: 11px;
         margin-top: 28px;
         border-bottom: 2px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 16px;
-        line-height: 14px;
+
+    .case-study__content--header {
+        margin-left: 28px;
+    }
+
+    .margin-one {
+        margin-left: 28px;
     }
     
-    .about-us__quote {
-        margin: 56px auto;
-        width: 472px;
-        
+    .margin-two {
+        margin-left: 42px;
     }
     
-    .about-us__quote--capital {
-        font-size: 42px;
-        line-height: 36px;
-        margin-right: 5px;
-        margin-left: 2px;
+    .margin-three {
+        margin-left: 56px;
     }
     
     h4 {
@@ -493,7 +415,7 @@ h4 {
         margin-left: 40px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 770px;
         padding-top: 20px;
         padding-bottom: 35px;
@@ -501,36 +423,28 @@ h4 {
         margin-bottom: 70px;
     }
     
-    .about-us__img {
-        width: 220px;
+    .case-study__title {
         margin-left: 40px;
-        margin-right: 20px;
-    }
-    
-    .about-us__title {
-        margin-left: 270px;
         margin-right: 40px;
         margin-bottom: 20px;
         margin-top: 10px;
         border-bottom: 4px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 35px;
-        line-height: 33px;
+
+    .case-study__content--header {
+        margin-left: 40px;
+    }
+
+    .margin-one {
+        margin-left: 40px;
     }
     
-    .about-us__quote {
-        margin: 80px auto;
-        width: 690px;
-        
+    .margin-two {
+        margin-left: 60px;
     }
     
-    .about-us__quote--capital {
-        font-size: 87px;
-        line-height: 75px;
-        margin-right: 11px;
-        margin-left: 6px;
+    .margin-three {
+        margin-left: 80px;
     }
     
     h4 {
@@ -545,7 +459,7 @@ h4 {
         margin-left: 37px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 716px;
         padding-top: 18px;
         padding-bottom: 32px;
@@ -553,36 +467,28 @@ h4 {
         margin-bottom: 65px;
     }
     
-    .about-us__img {
-        width: 204px;
+    .case-study__title {
         margin-left: 37px;
-        margin-right: 18px;
-    }
-    
-    .about-us__title {
-        margin-left: 251px;
         margin-right: 37px;
         margin-bottom: 18px;
         margin-top: 9px;
         border-bottom: 4px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 32px;
-        line-height: 30px;
+
+    .case-study__content--header {
+        margin-left: 37px;
+    }
+
+    .margin-one {
+        margin-left: 37px;
     }
     
-    .about-us__quote {
-        margin: 93px auto;
-        width: 642px;
-        
+    .margin-two {
+        margin-left: 55px;
     }
     
-    .about-us__quote--capital {
-        font-size: 80px;
-        line-height: 69px;
-        margin-right: 10px;
-        margin-left: 5px;
+    .margin-three {
+        margin-left: 74px;
     }
     
     h4 {
@@ -597,7 +503,7 @@ h4 {
         margin-left: 34px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 663px;
         padding-top: 17px;
         padding-bottom: 30px;
@@ -605,36 +511,28 @@ h4 {
         margin-bottom: 60px;
     }
     
-    .about-us__img {
-        width: 189px;
+    .case-study__title {
         margin-left: 34px;
-        margin-right: 17px;
-    }
-    
-    .about-us__title {
-        margin-left: 232px;
         margin-right: 34px;
         margin-bottom: 17px;
         margin-top: 8px;
         border-bottom: 4px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 30px;
-        line-height: 28px;
+
+    .case-study__content--header {
+        margin-left: 34px;
+    }
+
+    .margin-one {
+        margin-left: 34px;
     }
     
-    .about-us__quote {
-        margin: 68px auto;
-        width: 594px;
-        
+    .margin-two {
+        margin-left: 51px;
     }
     
-    .about-us__quote--capital {
-        font-size: 74px;
-        line-height: 64px;
-        margin-right: 9px;
-        margin-left: 5px;
+    .margin-three {
+        margin-left: 68px;
     }
     
     h4 {
@@ -649,7 +547,7 @@ h4 {
         margin-left: 30px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 583px;
         padding-top: 15px;
         padding-bottom: 26px;
@@ -657,36 +555,28 @@ h4 {
         margin-bottom: 53px;
     }
     
-    .about-us__img {
-        width: 166px;
+    .case-study__title {
         margin-left: 30px;
-        margin-right: 15px;
-    }
-    
-    .about-us__title {
-        margin-left: 204px;
         margin-right: 30px;
         margin-bottom: 15px;
         margin-top: 7px;
         border-bottom: 3px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 26px;
-        line-height: 25px;
+
+    .case-study__content--header {
+        margin-left: 30px;
+    }
+
+    .margin-one {
+        margin-left: 30px;
     }
     
-    .about-us__quote {
-        margin: 60px auto;
-        width: 523px;
-        
+    .margin-two {
+        margin-left: 45px;
     }
     
-    .about-us__quote--capital {
-        font-size: 65px;
-        line-height: 56px;
-        margin-right: 8px;
-        margin-left: 4px;
+    .margin-three {
+        margin-left: 60px;
     }
     
     h4 {
@@ -701,7 +591,7 @@ h4 {
         margin-left: 28px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 557px;
         padding-top: 14px;
         padding-bottom: 25px;
@@ -709,36 +599,28 @@ h4 {
         margin-bottom: 50px;
     }
     
-    .about-us__img {
-        width: 159px;
+    .case-study__title {
         margin-left: 28px;
-        margin-right: 14px;
-    }
-    
-    .about-us__title {
-        margin-left: 195px;
         margin-right: 28px;
         margin-bottom: 14px;
         margin-top: 7px;
         border-bottom: 3px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 25px;
-        line-height: 23px;
+
+    .case-study__content--header {
+        margin-left: 28px;
+    }
+
+    .margin-one {
+        margin-left: 28px;
     }
     
-    .about-us__quote {
-        margin: 57px auto;
-        width: 499px;
-        
+    .margin-two {
+        margin-left: 42px;
     }
     
-    .about-us__quote--capital {
-        font-size: 62px;
-        line-height: 54px;
-        margin-right: 7px;
-        margin-left: 4px;
+    .margin-three {
+        margin-left: 56px;
     }
     
     h4 {
@@ -753,7 +635,7 @@ h4 {
         margin-left: 27px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 530px;
         padding-top: 13px;
         padding-bottom: 24px;
@@ -761,36 +643,28 @@ h4 {
         margin-bottom: 48px;
     }
     
-    .about-us__img {
-        width: 151px;
+    .case-study__title {
         margin-left: 27px;
-        margin-right: 13px;
-    }
-    
-    .about-us__title {
-        margin-left: 186px;
         margin-right: 27px;
         margin-bottom: 13px;
         margin-top: 6px;
         border-bottom: 3px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 24px;
-        line-height: 22px;
+
+    .case-study__content--header {
+        margin-left: 27px;
+    }
+
+    .margin-one {
+        margin-left: 27px;
     }
     
-    .about-us__quote {
-        margin: 55px auto;
-        width: 475px;
-        
+    .margin-two {
+        margin-left: 40px;
     }
     
-    .about-us__quote--capital {
-        font-size: 59px;
-        line-height: 51px;
-        margin-right: 7px;
-        margin-left: 4px;
+    .margin-three {
+        margin-left: 54px;
     }
     
     h4 {
@@ -805,7 +679,7 @@ h4 {
         margin-left: 24px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 477px;
         padding-top: 12px;
         padding-bottom: 21px;
@@ -813,36 +687,28 @@ h4 {
         margin-bottom: 43px;
     }
     
-    .about-us__img {
-        width: 136px;
+    .case-study__title {
         margin-left: 24px;
-        margin-right: 12px;
-    }
-    
-    .about-us__title {
-        margin-left: 167px;
         margin-right: 24px;
         margin-bottom: 12px;
         margin-top: 6px;
         border-bottom: 3px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 21px;
-        line-height: 20px;
+
+    .case-study__content--header {
+        margin-left: 24px;
+    }
+
+    .margin-one {
+        margin-left: 24px;
     }
     
-    .about-us__quote {
-        margin: 49px auto;
-        width: 427px;
-        
+    .margin-two {
+        margin-left: 36px;
     }
     
-    .about-us__quote--capital {
-        font-size: 53px;
-        line-height: 46px;
-        margin-right: 6px;
-        margin-left: 3px;
+    .margin-three {
+        margin-left: 48px;
     }
     
     h4 {
@@ -857,7 +723,7 @@ h4 {
         margin-left: 23px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 451px;
         padding-top: 11px;
         padding-bottom: 20px;
@@ -865,36 +731,28 @@ h4 {
         margin-bottom: 41px;
     }
     
-    .about-us__img {
-        width: 128px;
+    .case-study__title {
         margin-left: 23px;
-        margin-right: 11px;
-    }
-    
-    .about-us__title {
-        margin-left: 158px;
         margin-right: 23px;
         margin-bottom: 11px;
         margin-top: 5px;
         border-bottom: 3px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 20px;
-        line-height: 19px;
+
+    .case-study__content--header {
+        margin-left: 23px;
+    }
+
+    .margin-one {
+        margin-left: 23px;
     }
     
-    .about-us__quote {
-        margin: 46px auto;
-        width: 404px;
-        
+    .margin-two {
+        margin-left: 34px;
     }
     
-    .about-us__quote--capital {
-        font-size: 50px;
-        line-height: 43px;
-        margin-right: 6px;
-        margin-left: 3px;
+    .margin-three {
+        margin-left: 46px;
     }
     
     h4 {
@@ -909,7 +767,7 @@ h4 {
         margin-left: 20px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 398px;
         padding-top: 10px;
         padding-bottom: 18px;
@@ -917,36 +775,28 @@ h4 {
         margin-bottom: 36px;
     }
     
-    .about-us__img {
-        width: 113px;
+    .case-study__title {
         margin-left: 20px;
-        margin-right: 10px;
-    }
-    
-    .about-us__title {
-        margin-left: 139px;
         margin-right: 20px;
         margin-bottom: 10px;
         margin-top: 5px;
         border-bottom: 2px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 18px;
-        line-height: 17px;
+
+    .case-study__content--header {
+        margin-left: 20px;
+    }
+
+    .margin-one {
+        margin-left: 20px;
     }
     
-    .about-us__quote {
-        margin: 41px auto;
-        width: 356px;
-        
+    .margin-two {
+        margin-left: 30px;
     }
     
-    .about-us__quote--capital {
-        font-size: 44px;
-        line-height: 38px;
-        margin-right: 5px;
-        margin-left: 3px;
+    .margin-three {
+        margin-left: 40px;
     }
     
     h4 {
@@ -970,7 +820,7 @@ h4 {
         margin-left: 17px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 398px;
         padding-top: 11px;
         padding-bottom: 20px;
@@ -978,39 +828,31 @@ h4 {
         margin-bottom: 40px;
     }
     
-    .about-us__img {
-        width: 152px;
+    .case-study__title {
         margin-left: 17px;
-        margin-right: 11px;
-    }
-    
-    .about-us__title {
-        margin-left: 181px;
         margin-right: 17px;
         margin-bottom: 16px;
         margin-top: 6px;
         border-bottom: 2px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 20px;
-        line-height: 19px;
+
+    .case-study__content--header {
+        margin-left: 17px;
+    }
+
+    .margin-one {
+        margin-left: 17px;
     }
     
-    .about-us__quote {
-        margin: 56px auto;
-        width: 364px;
-        
+    .margin-two {
+        margin-left: 25px;
     }
     
-    .about-us__quote--capital {
-        font-size: 51px;
-        line-height: 43px;
-        margin-right: 5px;
-        margin-left: 3px;
+    .margin-three {
+        margin-left: 34px;
     }
     
-    h5 {
+    h4 {
         margin-left: 17px;
     }
 }
@@ -1022,7 +864,7 @@ h4 {
         margin-left: 16px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 375px;
         padding-top: 11px;
         padding-bottom: 19px;
@@ -1030,39 +872,31 @@ h4 {
         margin-bottom: 38px;
     }
     
-    .about-us__img {
-        width: 143px;
+    .case-study__title {
         margin-left: 16px;
-        margin-right: 11px;
-    }
-    
-    .about-us__title {
-        margin-left: 170px;
         margin-right: 16px;
         margin-bottom: 15px;
         margin-top: 5px;
         border-bottom: 2px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 19px;
-        line-height: 18px;
+
+    .case-study__content--header {
+        margin-left: 16px;
+    }
+
+    .margin-one {
+        margin-left: 16px;
     }
     
-    .about-us__quote {
-        margin: 53px auto;
-        width: 343px;
-        
+    .margin-two {
+        margin-left: 24px;
     }
     
-    .about-us__quote--capital {
-        font-size: 48px;
-        line-height: 40px;
-        margin-right: 5px;
-        margin-left: 3px;
+    .margin-three {
+        margin-left: 32px;
     }
     
-    h5 {
+    h4 {
         margin-left: 16px;
     }
 }
@@ -1075,7 +909,7 @@ h4 {
         margin-left: 15px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 352px;
         padding-top: 10px;
         padding-bottom: 18px;
@@ -1083,39 +917,31 @@ h4 {
         margin-bottom: 36px;
     }
     
-    .about-us__img {
-        width: 135px;
+    .case-study__title {
         margin-left: 15px;
-        margin-right: 10px;
-    }
-    
-    .about-us__title {
-        margin-left: 160px;
         margin-right: 15px;
         margin-bottom: 14px;
         margin-top: 5px;
         border-bottom: 2px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 18px;
-        line-height: 17px;
+
+    .case-study__content--header {
+        margin-left: 15px;
+    }
+
+    .margin-one {
+        margin-left: 15px;
     }
     
-    .about-us__quote {
-        margin: 50px auto;
-        width: 322px;
-        
+    .margin-two {
+        margin-left: 22px;
     }
     
-    .about-us__quote--capital {
-        font-size: 45px;
-        line-height: 38px;
-        margin-right: 5px;
-        margin-left: 3px;
+    .margin-three {
+        margin-left: 30px;
     }
     
-    h5 {
+    h4 {
         margin-left: 15px;
     }
 }
@@ -1127,7 +953,7 @@ h4 {
         margin-left: 14px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 328px;
         padding-top: 9px;
         padding-bottom: 16px;
@@ -1135,39 +961,31 @@ h4 {
         margin-bottom: 33px;
     }
     
-    .about-us__img {
-        width: 125px;
+    .case-study__title {
         margin-left: 14px;
-        margin-right: 9px;
-    }
-    
-    .about-us__title {
-        margin-left: 149px;
         margin-right: 14px;
         margin-bottom: 13px;
         margin-top: 5px;
         border-bottom: 2px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 16px;
-        line-height: 15px;
+
+    .case-study__content--header {
+        margin-left: 14px;
+    }
+
+    .margin-one {
+        margin-left: 14px;
     }
     
-    .about-us__quote {
-        margin: 46px auto;
-        width: 300px;
-        
+    .margin-two {
+        margin-left: 21px;
     }
     
-    .about-us__quote--capital {
-        font-size: 42px;
-        line-height: 35px;
-        margin-right: 5px;
-        margin-left: 3px;
+    .margin-three {
+        margin-left: 28px;
     }
     
-    h5 {
+    h4 {
         margin-left: 14px;
     }
 }
@@ -1179,7 +997,7 @@ h4 {
         margin-left: 13px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 305px;
         padding-top: 8px;
         padding-bottom: 16px;
@@ -1187,39 +1005,31 @@ h4 {
         margin-bottom: 31px;
     }
     
-    .about-us__img {
-        width: 117px;
+    .case-study__title {
         margin-left: 13px;
-        margin-right: 8px;
-    }
-    
-    .about-us__title {
-        margin-left: 138px;
         margin-right: 13px;
         margin-bottom: 12px;
         margin-top: 4px;
         border-bottom: 2px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 15px;
-        line-height: 14px;
+
+    .case-study__content--header {
+        margin-left: 13px;
+    }
+
+    .margin-one {
+        margin-left: 13px;
     }
     
-    .about-us__quote {
-        margin: 43px auto;
-        width: 279px;
-        
+    .margin-two {
+        margin-left: 19px;
     }
     
-    .about-us__quote--capital {
-        font-size: 39px;
-        line-height: 33px;
-        margin-right: 4px;
-        margin-left: 3px;
+    .margin-three {
+        margin-left: 26px;
     }
     
-    h5 {
+    h4 {
         margin-left: 13px;
     }
 }
@@ -1231,7 +1041,7 @@ h4 {
         margin-left: 12px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 281px;
         padding-top: 8px;
         padding-bottom: 14px;
@@ -1239,39 +1049,31 @@ h4 {
         margin-bottom: 28px;
     }
     
-    .about-us__img {
-        width: 108px;
+    .case-study__title {
         margin-left: 12px;
-        margin-right: 8px;
-    }
-    
-    .about-us__title {
-        margin-left: 128px;
         margin-right: 12px;
         margin-bottom: 11px;
         margin-top: 4px;
         border-bottom: 2px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 14px;
-        line-height: 13px;
+
+    .case-study__content--header {
+        margin-left: 12px;
+    }
+
+    .margin-one {
+        margin-left: 12px;
     }
     
-    .about-us__quote {
-        margin: 40px auto;
-        width: 257px;
-        
+    .margin-two {
+        margin-left: 18px;
     }
     
-    .about-us__quote--capital {
-        font-size: 36px;
-        line-height: 30px;
-        margin-right: 4px;
-        margin-left: 2px;
+    .margin-three {
+        margin-left: 24px;
     }
     
-    h5 {
+    h4 {
         margin-left: 12px;
     }
 }
@@ -1283,7 +1085,7 @@ h4 {
         margin-left: 11px;
     }
     
-    .about-us-content {
+    .case-study-content {
         width: 258px;
         padding-top: 7px;
         padding-bottom: 13px;
@@ -1291,39 +1093,31 @@ h4 {
         margin-bottom: 26px;
     }
     
-    .about-us__img {
-        width: 99px;
+    .case-study__title {
         margin-left: 11px;
-        margin-right: 7px;
-    }
-    
-    .about-us__title {
-        margin-left: 117px;
         margin-right: 11px;
         margin-bottom: 10px;
         margin-top: 4px;
         border-bottom: 2px solid rgba(0, 11, 75, 0.5);
     }
-    
-    .about-us__year {
-        font-size: 13px;
-        line-height: 12px;
+
+    .case-study__content--header {
+        margin-left: 11px;
+    }
+
+    .margin-one {
+        margin-left: 11px;
     }
     
-    .about-us__quote {
-        margin: 36px auto;
-        width: 236px;
-        
+    .margin-two {
+        margin-left: 16px;
     }
     
-    .about-us__quote--capital {
-        font-size: 33px;
-        line-height: 27px;
-        margin-right: 3px;
-        margin-left: 2px;
+    .margin-three {
+        margin-left: 22px;
     }
     
-    h5 {
+    h4 {
         margin-left: 11px;
     }
 }

@@ -1,5 +1,6 @@
 //import
-import { useState, useEffect } from "react"
+import { useState, useEffect } from "react";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 //import self made components
 import { FrontPage } from "../first-page/front-page"
@@ -11,6 +12,7 @@ import { MainDetailsView } from "../main-details-view/main-details-view"
 import { AdditionalDetailsView } from "../additional-details-view/additional-details-view"
 import { AboutUsView } from "../about-us-view/about-us-view"
 import { SliderDots } from "../slider-dots/slider-dots"
+import { CaseStudy } from "../case-study/case-study";
 
 export const MainView = () => {
     //set states
@@ -85,44 +87,62 @@ export const MainView = () => {
     })
         
     return (
-        <>
-            <MusicButton />
-            <SliderDots position={ page }/>
-            
-            { page > 0 && (
-                <NaviBackArrow 
-                    onClick={ decrement }
-                    page={ page }
-                />
-            )}
+        <BrowserRouter>
+            <Routes>
+                <Route
+                    path="/"
+                    element={
+                        <>
+                            <MusicButton />
+                            <SliderDots position={ page }/>
+                            
+                            { page > 0 && (
+                                <NaviBackArrow 
+                                    onClick={ decrement }
+                                    page={ page }
+                                />
+                            )}
 
-            <div className="page-content">
-                { page === 0 && (
-                    <FrontPage />
-                )} 
-                
-                { page === 1 && (
-                    <LetterView />
-                )}
+                            <div className="page-content">
+                                { page === 0 && (
+                                    <FrontPage />
+                                )} 
+                                
+                                { page === 1 && (
+                                    <LetterView />
+                                )}
 
-                { page === 2 && (
-                    <MainDetailsView />
-                )}
+                                { page === 2 && (
+                                    <MainDetailsView />
+                                )}
 
-                { page === 3 && (
-                    <AdditionalDetailsView />
-                )}
+                                { page === 3 && (
+                                    <AdditionalDetailsView />
+                                )}
 
-                { page === 4 && (
-                    <AboutUsView />
-                )}
-            </div>
+                                { page === 4 && (
+                                    <AboutUsView />
+                                )}
+                            </div>
 
-            {page < 4 && (
-                <NaviNextArrow 
-                    onClick={ increment }
-                />
-            )}
-        </>
+                            {page < 4 && (
+                                <NaviNextArrow 
+                                    onClick={ increment }
+                                />
+                            )}
+                        </>
+                    }
+                >
+                </Route>
+                <Route
+                    path="/case-study"
+                    element={
+                        <CaseStudy />
+                    }
+                >
+
+                </Route>
+            </Routes>
+        </BrowserRouter>
     )
 }
