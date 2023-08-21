@@ -1,13 +1,22 @@
 //import self-scss
 import "./case-study.scss"
 
-//import images
-import ViewChanging from "../../img/case-study/view-changing.jpg"
-
 export const CaseStudy = () => {
     return (
         <>
         <div className="case-study-content">
+            <a 
+                href="/img/case-study/Kincso-and-Zoltan.png"
+                rel="image of the opening page"
+                target="_blank"
+            >
+                <img
+                    src="/img/case-study/Kincso-and-Zoltan.png"
+                    alt="image of the opening page"
+                    className="case-study__img"
+                />
+            </a>
+            
             <h3 className="case-study__title">Wedding Invitation Case Study</h3>
 
             <h4 className="case-study__content--header">Overview</h4>
@@ -65,7 +74,7 @@ export const CaseStudy = () => {
                 target="_blank"
             >
                 <img 
-                    src={ViewChanging} 
+                    src="/img/case-study/view-changing.jpg" 
                     alt="Showing the second view of the website"
                     className="case-study__img"
                 />
@@ -90,18 +99,6 @@ export const CaseStudy = () => {
                 Adding elements to the view according to the design, 
                 and style them
             </h4>
-
-            <a 
-                href="/img/case-study/Kincso-and-Zoltan.png"
-                rel="image of the opening page"
-                target="_blank"
-            >
-                <img
-                    src="/img/case-study/Kincso-and-Zoltan.png"
-                    alt="image of the opening page"
-                    className="case-study__img"
-                />
-            </a>
 
             <p>
                 Without this step, the website wouldn’t be useful. It contains all the information about the 
