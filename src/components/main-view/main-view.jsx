@@ -130,11 +130,6 @@ export const MainView = () => {
                                     onClick={ increment }
                                 />
                             )}
-
-                            
-                            <Link to={`/case-study`}>
-                                .
-                            </Link>
                         </>
                     }
                 >
