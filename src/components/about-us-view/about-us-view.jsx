@@ -23,7 +23,7 @@ export const AboutUsView = () => {
                     <span className="about-us__year">2022</span> februárjában pedig igazán különleges élményben volt részünk, egy maldív-szigeteki álomutazás formájában. Tavasszal autótávolságra lévő városokba látogattunk el, Berlinbe és Prágába. Ősszel mindketten karrierváltó tanfolyamba fogtunk, ami igencsak átformálta hétköznapjainkat és jövőnket. A tél beköszöntével elveszítettük első két kiskedvencünket, ámde nem csak rossz dolgok értek minket. A téli napfordulón, december 21-én, mikor Kincső hazaért, egy virágcsokor és egy üzenet fogadta Zolitól. Meglepetésrandit szervezett egy olasz étterembe, és megtörtént a várva várt eljegyzés.
                 </p>
                 <p>
-                    <span className="about-us__year">2023</span>-ban vár ránk az esküvő, a nászút, és még ki tudja mit tartogat az év. Reméljük, a jövő évtől kezdve pedig nagyobb terveinket is egy-kettőre valóra váltjuk!
+                    <span className="about-us__year">2023</span>-ban vár ránk az esküvő, és még ki tudja mit tartogat az év. Reméljük, a jövő évtől kezdve pedig nagyobb terveinket is egy-kettőre valóra váltjuk!
                 </p>
                 <p className="about-us__quote">
                     <span className="about-us__quote--capital">A</span>kik ketten együtt járják az élet sokszínű útját, kevésbé fáradnak el, édesebben pihennek, és vidámabban vándorolnak tovább, mint a társtalan utasok. Örömük megkétszereződik, mert ketten örülnek neki,
@@ -49,7 +49,7 @@ export const AboutUsView = () => {
                     <span className="about-us__year">2022</span> februárjában pedig igazán különleges élményben volt részünk, egy maldív-szigeteki álomutazás formájában. Tavasszal autótávolságra lévő városokba látogattunk el, Berlinbe és Prágába. Ősszel mindketten karrierváltó tanfolyamba fogtunk, ami igencsak átformálta hétköznapjainkat és jövőnket. A tél beköszöntével elveszítettük első két kiskedvencünket, ámde nem csak rossz dolgok értek minket. A téli napfordulón, december 21-én, mikor Kincső hazaért, egy virágcsokor és egy üzenet fogadta Zolitól. Meglepetésrandit szervezett egy olasz étterembe, és megtörtént a várva várt eljegyzés.
                 </p>
                 <p>
-                    <span className="about-us__year">2023</span>-ban vár ránk az esküvő, a nászút, és még ki tudja mit tartogat az év. Reméljük, a jövő évtől kezdve pedig nagyobb terveinket is egy-kettőre valóra váltjuk!
+                    <span className="about-us__year">2023</span>-ban vár ránk az esküvő, és még ki tudja mit tartogat az év. Reméljük, a jövő évtől kezdve pedig nagyobb terveinket is egy-kettőre valóra váltjuk!
                 </p>
                 <p className="about-us__quote">
                     <span className="about-us__quote--capital">A</span>kik ketten együtt járják az élet sokszínű útját, kevésbé fáradnak el, édesebben pihennek, és vidámabban vándorolnak tovább, mint a társtalan utasok. Örömük megkétszereződik, mert ketten örülnek neki,
